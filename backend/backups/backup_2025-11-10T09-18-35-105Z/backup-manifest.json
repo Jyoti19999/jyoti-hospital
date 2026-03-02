@@ -1,0 +1,71 @@
+{
+  "backupId": "2025-11-10T09-18-35-105Z",
+  "backupDate": "2025-11-10T09:18:38.906Z",
+  "version": "1.0.0",
+  "description": "Pre-IPD Implementation Comprehensive Backup",
+  "ohmsVersion": "Current",
+  "databaseType": "PostgreSQL",
+  "backupType": "FULL",
+  "files": [
+    {
+      "name": "original-schema.prisma",
+      "description": "Original Prisma schema before IPD changes",
+      "type": "schema",
+      "critical": true
+    },
+    {
+      "name": "critical-data-backup.json",
+      "description": "All essential application data",
+      "type": "data",
+      "critical": true
+    },
+    {
+      "name": "backup-summary.json",
+      "description": "Summary of backed up record counts",
+      "type": "metadata",
+      "critical": false
+    },
+    {
+      "name": "database-schema.sql",
+      "description": "PostgreSQL schema dump",
+      "type": "sql_schema",
+      "critical": true
+    },
+    {
+      "name": "database-data.sql",
+      "description": "PostgreSQL data dump",
+      "type": "sql_data",
+      "critical": true
+    },
+    {
+      "name": "restore-critical-data.js",
+      "description": "Automated restoration script",
+      "type": "script",
+      "critical": true
+    },
+    {
+      "name": "restore-instructions.md",
+      "description": "Detailed restoration instructions",
+      "type": "documentation",
+      "critical": true
+    }
+  ],
+  "restorationMethods": [
+    "Full PostgreSQL restore (recommended)",
+    "Prisma schema restore + data import",
+    "Manual data restoration using JSON backup"
+  ],
+  "verificationSteps": [
+    "Verify application startup",
+    "Check patient/staff record counts",
+    "Test login functionality",
+    "Verify queue management",
+    "Test appointment system"
+  ],
+  "warnings": [
+    "Always test restoration in non-production environment first",
+    "Verify database connectivity before restoration",
+    "Stop application services before restoration",
+    "This backup contains sensitive healthcare data - handle securely"
+  ]
+}

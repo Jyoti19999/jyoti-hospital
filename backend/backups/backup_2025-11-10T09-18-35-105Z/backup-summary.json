@@ -1,0 +1,15 @@
+{
+  "backupTimestamp": "2025-11-10T09:18:35.590Z",
+  "recordCounts": {
+    "patients": 12,
+    "staff": 13,
+    "patientVisits": 19,
+    "appointments": 19,
+    "patientQueue": 19,
+    "optometristExaminations": 18,
+    "ophthalmologistExaminations": 4,
+    "bills": 0,
+    "prescriptions": 3,
+    "medicines": 20
+  }
+}

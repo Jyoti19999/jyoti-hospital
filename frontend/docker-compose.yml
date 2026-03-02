@@ -1,0 +1,24 @@
+services:
+  backend:
+    build: ./BACKEND          # build from Dockerfile in BACKEND folder
+    container_name: ohms2-backend
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./BACKEND:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+
+  frontend:
+    build: ./frontend         # build from Dockerfile in frontend folder
+    container_name: ohms2-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    depends_on:
+      - backend

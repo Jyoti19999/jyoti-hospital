@@ -1,0 +1,6008 @@
+{
+  "timestamp": "2025-11-10T09:18:35.144Z",
+  "patients": [
+    {
+      "id": "cmhn3qqve0000lhg4w8a6xd3y",
+      "patientNumber": 967756,
+      "mrn": "MRN91431831",
+      "firstName": "Kaden",
+      "lastName": "Goldner",
+      "dateOfBirth": "1979-05-03T00:00:00.000Z",
+      "gender": "male",
+      "phone": "+91 6777841312",
+      "email": "lonzo.oconner@gmail.com",
+      "address": "quibusdam vergo anser victoria vitium charisma adstringo asperiores compono",
+      "emergencyContacts": [
+        {
+          "name": "voluptatem avaritia aggredior iste carcer vespillo asperiores cum desparatus",
+          "phone": "+91 6777841312",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": [
+        {
+          "id": "1762413898892",
+          "name": "BP",
+          "severity": "mild"
+        }
+      ],
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$9frBAojMoy56n7RpfilYTOAqMK9SFHTHAbK5mu1Jxj22hRiVmFGWa",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-06T07:25:18.602Z",
+      "updatedAt": "2025-11-06T07:25:18.602Z"
+    },
+    {
+      "id": "cmhn3uti70007lhg41kdw37g9",
+      "patientNumber": 229432,
+      "mrn": "MRN18775581",
+      "firstName": "Una",
+      "lastName": "Ebert",
+      "dateOfBirth": "1972-06-17T00:00:00.000Z",
+      "gender": "male",
+      "phone": "+91 5821240449",
+      "email": "destini.quigley@gmail.com",
+      "address": "cito vulgaris perferendis vetus summopere subseco cogito officiis caries",
+      "emergencyContacts": [
+        {
+          "name": "summa urbanus angulus spoliatio tergeo timor demonstro aliqua vulgaris",
+          "phone": "+91 9594538965",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": [
+        {
+          "id": "1762414100734",
+          "name": "bn",
+          "severity": "mild"
+        }
+      ],
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$OOUo6DxH/gzCGPiXHJM/heC78jI3hT2dkayLQ4esLtg0qnPKsIfb6",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-06T07:28:28.639Z",
+      "updatedAt": "2025-11-06T07:28:28.639Z"
+    },
+    {
+      "id": "cmhn3vb03000elhg43hu9xbfh",
+      "patientNumber": 280912,
+      "mrn": "MRN57515101",
+      "firstName": "Malika",
+      "lastName": "Cummings",
+      "dateOfBirth": "1949-03-05T00:00:00.000Z",
+      "gender": "male",
+      "phone": "+91 7743299635",
+      "email": "claud.barrows@hotmail.com",
+      "address": "currus celo curatio solum tricesimus taceo rerum ubi conservo",
+      "emergencyContacts": [
+        {
+          "name": "bestia paulatim depraedor utor virtus desino tyrannus suppellex vester",
+          "phone": "+91 0483146246",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": [
+        {
+          "id": "1762414128850",
+          "name": "mn",
+          "severity": "mild"
+        }
+      ],
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$.4eWT12zXWhZtgFbhBRKset6srbHxVDGpVZ.8yxFM0B3ia1LpZwtS",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-06T07:28:51.315Z",
+      "updatedAt": "2025-11-06T07:28:51.315Z"
+    },
+    {
+      "id": "cmhn3vn2v000llhg4wt32wiph",
+      "patientNumber": 825217,
+      "mrn": "MRN18467833",
+      "firstName": "Bernardo",
+      "lastName": "Skiles",
+      "dateOfBirth": "1974-09-24T00:00:00.000Z",
+      "gender": "female",
+      "phone": "+91 7532523218",
+      "email": "christophe.brakus1@yahoo.com",
+      "address": "animus blanditiis torrens calculus auctor adicio thesaurus spes victus",
+      "emergencyContacts": [
+        {
+          "name": "amissio amor carus facilis utilis qui compello blanditiis conduco",
+          "phone": "+91 3646932627",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$DSl0ud7HEvV7qtqy1O/Nt.u.XAAcIK21bxwO6weolHfQpm7NiSlAy",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-06T07:29:06.967Z",
+      "updatedAt": "2025-11-06T07:29:06.967Z"
+    },
+    {
+      "id": "cmhn3w00f000slhg4x19z5k4q",
+      "patientNumber": 837286,
+      "mrn": "MRN99355889",
+      "firstName": "Mckayla",
+      "lastName": "Stiedemann",
+      "dateOfBirth": "1947-12-23T00:00:00.000Z",
+      "gender": "male",
+      "phone": "+91 1931800810",
+      "email": "tyree_kemmer11@yahoo.com",
+      "address": "vorax advoco suffoco occaecati ad quidem xiphias rem vita",
+      "emergencyContacts": [
+        {
+          "name": "compono aliquid nisi cultellus adipisci ars suasoria coruscus cenaculum",
+          "phone": "+91 4764206292",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$/MmdHjiqwXk6BLbJ3T5V8edG8zjIf/DQCSr7B4cXTTPn9TGWKS0ty",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-06T07:29:23.727Z",
+      "updatedAt": "2025-11-06T07:29:23.727Z"
+    },
+    {
+      "id": "cmhoj7m27001dlhnc6h8c6pms",
+      "patientNumber": 878881,
+      "mrn": "MRN17148025",
+      "firstName": "Damien",
+      "lastName": "Rutherford",
+      "dateOfBirth": "1988-08-30T00:00:00.000Z",
+      "gender": "female",
+      "phone": "+91 2238563964",
+      "email": "kattie.purdy50@yahoo.com",
+      "address": "deprecator degusto solum cornu demitto appono deputo bene decerno",
+      "emergencyContacts": [
+        {
+          "name": "tego contigo amet certe assentator acceptus cuius speciosus suus",
+          "phone": "+91 3103706441",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$7hKE29idk1bNL5.zqqkk0.bBd4n97Ns/1kupinWLsToixkt4mQRBq",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-07T07:26:05.935Z",
+      "updatedAt": "2025-11-07T07:26:05.935Z"
+    },
+    {
+      "id": "cmhoj7wd8001klhncdum47ljx",
+      "patientNumber": 107357,
+      "mrn": "MRN37202428",
+      "firstName": "Jennifer",
+      "lastName": "Hettinger",
+      "dateOfBirth": "2005-07-14T00:00:00.000Z",
+      "gender": "female",
+      "phone": "+91 3627314124",
+      "email": "jedidiah82@yahoo.com",
+      "address": "tempus absens tres utor supra comes sub suadeo terebro",
+      "emergencyContacts": [
+        {
+          "name": "vigilo adaugeo clementia attero cetera socius colligo amor sodalitas",
+          "phone": "+91 1820279047",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$u2y/DnD0i5pXE8vgZeKzFeOXkD2dX5K7rFiz40.bU6SI5kAOWISuC",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-07T07:26:19.293Z",
+      "updatedAt": "2025-11-07T07:26:19.293Z"
+    },
+    {
+      "id": "cmhoj87ks001rlhncy6e55y9c",
+      "patientNumber": 233454,
+      "mrn": "MRN68733079",
+      "firstName": "Georgiana",
+      "lastName": "Kozey",
+      "dateOfBirth": "1964-05-05T00:00:00.000Z",
+      "gender": "female",
+      "phone": "+91 1343516687",
+      "email": "stone.kassulke83@hotmail.com",
+      "address": "cena iure studio audio decens sophismata approbo videlicet tardus",
+      "emergencyContacts": [
+        {
+          "name": "debeo deserunt adipisci caste aeternus deputo eaque tumultus defungo",
+          "phone": "+91 8041556948",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$BULFjxQRACq7rZ02WA3RReBX3cUwo47tVtyrW7pIPtkbGcKxapRuK",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-07T07:26:33.820Z",
+      "updatedAt": "2025-11-07T07:26:33.820Z"
+    },
+    {
+      "id": "cmhoj8iat001ylhncvpojt5zs",
+      "patientNumber": 569526,
+      "mrn": "MRN71808345",
+      "firstName": "Pasquale",
+      "lastName": "Veum",
+      "dateOfBirth": "1961-10-28T00:00:00.000Z",
+      "gender": "female",
+      "phone": "+91 6134704560",
+      "email": "jensen_abshire@yahoo.com",
+      "address": "caterva cogito vado volva terror architecto cubo coadunatio speculum",
+      "emergencyContacts": [
+        {
+          "name": "cum surgo via volubilis patria pecto vito absum apostolus",
+          "phone": "+91 2986189197",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$v1Tbuj5vt3RI61BwZK6otOXw.IK/5vY0q3NkvOdLulIqd4qA88Yg2",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-07T07:26:47.717Z",
+      "updatedAt": "2025-11-07T07:26:47.717Z"
+    },
+    {
+      "id": "cmhoj8t9m0025lhncak577md2",
+      "patientNumber": 726203,
+      "mrn": "MRN70883392",
+      "firstName": "Ana",
+      "lastName": "Tremblay",
+      "dateOfBirth": "1950-11-22T00:00:00.000Z",
+      "gender": "female",
+      "phone": "+91 3453248157",
+      "email": "charley.huels88@gmail.com",
+      "address": "inflammatio a eum curia trepide tego acceptus deprimo ustilo",
+      "emergencyContacts": [
+        {
+          "name": "admiratio adflicto virtus pectus degero vulnero sapiente tersus tersus",
+          "phone": "+91 9674321947",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$ni5AuW1eXB7pT35cA1W9ouLWUw9MxuXfyysfAa06LWQWls/eYcWCu",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-07T07:27:01.931Z",
+      "updatedAt": "2025-11-07T07:27:01.931Z"
+    },
+    {
+      "id": "cmhoj956h002clhnc46hfcd0a",
+      "patientNumber": 140261,
+      "mrn": "MRN59374510",
+      "firstName": "Merritt",
+      "lastName": "Prohaska",
+      "dateOfBirth": "1991-05-03T00:00:00.000Z",
+      "gender": "male",
+      "phone": "+91 9531708164",
+      "email": "omer_becker43@yahoo.com",
+      "address": "tandem voluptatibus bellicus saepe cotidie argentum coaegresco supplanto amplexus",
+      "emergencyContacts": [
+        {
+          "name": "ducimus deludo vomica arguo cerno pecus tepesco aspicio corpus",
+          "phone": "+91 2785894390",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$bkmOVyvyKmeva5ybo0.mY.wlGoyRMQ8xHeWN.P.pgBuMLBAoFm5ie",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-07T07:27:17.370Z",
+      "updatedAt": "2025-11-07T07:27:17.370Z"
+    },
+    {
+      "id": "cmhoj9hee002jlhnctpqu28b8",
+      "patientNumber": 524353,
+      "mrn": "MRN56794302",
+      "firstName": "Gilda",
+      "lastName": "Schamberger",
+      "dateOfBirth": "1991-10-10T00:00:00.000Z",
+      "gender": "female",
+      "phone": "+91 2128568471",
+      "email": "claudia.lebsack@gmail.com",
+      "address": "tepesco vergo spiritus textilis patior studio adsum cultellus advenio",
+      "emergencyContacts": [
+        {
+          "name": "ad velociter stillicidium considero corona aestivus tunc cuius vester",
+          "phone": "+91 7225663416",
+          "relation": "Emergency Contact"
+        }
+      ],
+      "bloodGroup": null,
+      "allergies": null,
+      "chronicConditions": null,
+      "previousSurgeries": null,
+      "familyHistory": null,
+      "lifestyle": null,
+      "eyeHistory": null,
+      "visionHistory": null,
+      "currentMedications": null,
+      "riskFactors": null,
+      "insuranceDetails": null,
+      "defaultInsuranceId": null,
+      "profilePhoto": null,
+      "passwordHash": "$2b$12$cIBrPqkZepezhUxWeLb2deNpf.Puq82qYobrTJjFzHCHmIgJlgHae",
+      "lastLogin": null,
+      "isReferred": false,
+      "referredBy": null,
+      "patientStatus": "active",
+      "createdAt": "2025-11-07T07:27:33.207Z",
+      "updatedAt": "2025-11-07T07:27:33.207Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "cmhn1584d00057km0x5p2g8uv",
+      "employeeId": "ANE001",
+      "firstName": "Anesthesiologist",
+      "lastName": "User",
+      "email": "ankushmu8080@gmail.com",
+      "phone": "+91-9876543215",
+      "staffType": "anesthesiologist",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:12:35.293Z"
+    },
+    {
+      "id": "cmhn1dekm00007kiw114mfb9b",
+      "employeeId": "OTA0001",
+      "firstName": "test1",
+      "lastName": "23",
+      "email": "testing83@gmail.com",
+      "phone": "6767676767",
+      "staffType": "ot-admin",
+      "employmentStatus": "",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:18:56.903Z"
+    },
+    {
+      "id": "cmhn27itf0000lhfwuefqnbhq",
+      "employeeId": "OPT0002",
+      "firstName": "Trycia",
+      "lastName": "Will",
+      "email": "work.ankush074@gmail.com",
+      "phone": "537-867-0912",
+      "staffType": "optometrist",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:42:22.083Z"
+    },
+    {
+      "id": "cmhn157r900017km0eujqowlm",
+      "employeeId": "REC001",
+      "firstName": "Receptionist",
+      "lastName": "One",
+      "email": "admin@yogineerstech.in",
+      "phone": "+91-9876543211",
+      "staffType": "receptionist",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:12:34.822Z"
+    },
+    {
+      "id": "cmhn157z300047km0x8j865ec",
+      "employeeId": "OTA001",
+      "firstName": "OT Admin",
+      "lastName": "User",
+      "email": "ankushdiwakar8080@gmail.com",
+      "phone": "+91-9876543214",
+      "staffType": "ot_admin",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:12:35.104Z"
+    },
+    {
+      "id": "cmhn157vr00037km0gv0ixhzn",
+      "employeeId": "DOC001",
+      "firstName": "Dr. Doctor",
+      "lastName": "User",
+      "email": "chavantanuj50@gmail.com",
+      "phone": "+91-9876543213",
+      "staffType": "doctor",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:12:34.984Z"
+    },
+    {
+      "id": "cmhn158a000067km0ukhllcvm",
+      "employeeId": "SUR001",
+      "firstName": "Surgeon",
+      "lastName": "User",
+      "email": "work.ankush07@gmail.com",
+      "phone": "+91-9876543216",
+      "staffType": "surgeon",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:12:35.497Z"
+    },
+    {
+      "id": "cmhn157ow00007km0qay4vn71",
+      "employeeId": "OPT001",
+      "firstName": "Optometrist",
+      "lastName": "User",
+      "email": "adwapking83@gmail.com",
+      "phone": "+91-9876543210",
+      "staffType": "optometrist",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:12:34.737Z"
+    },
+    {
+      "id": "cmhn158em00077km0xu2je46i",
+      "employeeId": "SIS001",
+      "firstName": "Sister",
+      "lastName": "User",
+      "email": "metacodehorizons@gmail.com",
+      "phone": "+91-9876543217",
+      "staffType": "sister",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T06:12:35.662Z"
+    },
+    {
+      "id": "cmhn4ec1k0019lhg4ijozo1sr",
+      "employeeId": "RC20001",
+      "firstName": "Raphaelle",
+      "lastName": "Reinger",
+      "email": "tcchavan999@gmail.com",
+      "phone": "9998887654",
+      "staffType": "receptionist2",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T07:43:39.128Z"
+    },
+    {
+      "id": "cmhnbyntr00017kiwewbkfuzh",
+      "employeeId": "DOC0002",
+      "firstName": "doctor",
+      "lastName": "staff",
+      "email": "doctorstaff@gmail.com",
+      "phone": "1234567876",
+      "staffType": "doctor",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T11:15:24.831Z"
+    },
+    {
+      "id": "cmhnc189o00027kiw113jaztk",
+      "employeeId": "NUR0001",
+      "firstName": "nurse",
+      "lastName": "staff",
+      "email": "nursestaff@gmail.com",
+      "phone": "9898989898",
+      "staffType": "nurse",
+      "employmentStatus": "",
+      "isActive": true,
+      "createdAt": "2025-11-06T11:17:24.636Z"
+    },
+    {
+      "id": "cmhnc4hlv00037kiwwp2kb6j7",
+      "employeeId": "RC20002",
+      "firstName": "recep2",
+      "lastName": "test",
+      "email": "receptiTest@gmail.com",
+      "phone": "8787878783",
+      "staffType": "receptionist2",
+      "employmentStatus": "active",
+      "isActive": true,
+      "createdAt": "2025-11-06T11:19:56.708Z"
+    }
+  ],
+  "patientVisits": [
+    {
+      "id": "cmhn3w3tz000wlhg4mwx6yteg",
+      "patientId": "cmhn3w00f000slhg4x19z5k4q",
+      "appointmentId": "cmhn3w2h2000ulhg49y2804ju",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-06T07:29:28.676Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "COMPLETED",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-06T07:29:28.676Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-06T07:37:32.507Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": "2025-11-06T10:10:33.167Z",
+      "billingInitiatedAt": null,
+      "completedAt": "2025-11-06T10:10:33.167Z",
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:29:28.679Z",
+      "updatedAt": "2025-11-06T10:10:33.171Z"
+    },
+    {
+      "id": "cmhn3uy4n000blhg4uczzxymd",
+      "patientId": "cmhn3uti70007lhg41kdw37g9",
+      "appointmentId": "cmhn3uvvo0009lhg4xaim8fxi",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-06T07:28:34.629Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "COMPLETED",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-06T07:28:34.629Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-06T07:36:14.662Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": "2025-11-07T05:22:35.891Z",
+      "billingInitiatedAt": null,
+      "completedAt": "2025-11-07T05:22:35.891Z",
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:28:34.631Z",
+      "updatedAt": "2025-11-07T05:22:35.892Z"
+    },
+    {
+      "id": "cmhn3vquf000plhg4vabz6hb7",
+      "patientId": "cmhn3vn2v000llhg4wt32wiph",
+      "appointmentId": "cmhn3vpix000nlhg40hfif6pt",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-06T07:29:11.844Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "COMPLETED",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-06T07:29:11.844Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-06T07:37:05.193Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": "2025-11-07T05:28:25.999Z",
+      "billingInitiatedAt": null,
+      "completedAt": "2025-11-07T05:28:25.999Z",
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:29:11.847Z",
+      "updatedAt": "2025-11-07T05:28:26.000Z"
+    },
+    {
+      "id": "cmhn3qvo40004lhg4rhwjayd3",
+      "patientId": "cmhn3qqve0000lhg4w8a6xd3y",
+      "appointmentId": "cmhn3qti40002lhg4gcpkmdam",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-06T07:25:24.818Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "COMPLETED",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-06T07:25:24.818Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-06T07:35:40.664Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": "2025-11-07T05:29:32.639Z",
+      "billingInitiatedAt": null,
+      "completedAt": "2025-11-07T05:29:32.639Z",
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:25:24.820Z",
+      "updatedAt": "2025-11-07T05:29:32.640Z"
+    },
+    {
+      "id": "cmhn3vehd000ilhg4j7ozpz3m",
+      "patientId": "cmhn3vb03000elhg43hu9xbfh",
+      "appointmentId": "cmhn3vddx000glhg4zu07pohw",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-06T07:28:55.820Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "COMPLETED",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-06T07:28:55.820Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-06T07:36:44.167Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": "2025-11-07T05:30:19.835Z",
+      "billingInitiatedAt": null,
+      "completedAt": "2025-11-07T05:30:19.835Z",
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:28:55.824Z",
+      "updatedAt": "2025-11-07T05:30:19.837Z"
+    },
+    {
+      "id": "cmhoj800z001olhncqkn65u25",
+      "patientId": "cmhoj7wd8001klhncdum47ljx",
+      "appointmentId": "cmhoj7yo0001mlhncf6bkxu8s",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-07T07:26:24.033Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:26:24.033Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T07:45:02.079Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:26:24.035Z",
+      "updatedAt": "2025-11-07T07:45:02.081Z"
+    },
+    {
+      "id": "cmhogy2mv000ilhnc5w7jlbit",
+      "patientId": "cmhn3vn2v000llhg4wt32wiph",
+      "appointmentId": "cmhogy1lo000glhncrv9si953",
+      "doctorId": null,
+      "visitNumber": 2,
+      "visitType": "Emergency",
+      "visitDate": "2025-11-07T06:22:41.622Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T06:22:41.622Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T07:19:14.112Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T06:22:41.623Z",
+      "updatedAt": "2025-11-07T07:19:14.113Z"
+    },
+    {
+      "id": "cmhoj9l0g002nlhncrw1bolsl",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "appointmentId": "cmhoj9jwf002llhncadbkgutv",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-07T07:27:37.888Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:27:37.888Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T08:49:08.525Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:27:37.889Z",
+      "updatedAt": "2025-11-07T08:49:08.527Z"
+    },
+    {
+      "id": "cmhoj8ljg0022lhnc92z9yq75",
+      "patientId": "cmhoj8iat001ylhncvpojt5zs",
+      "appointmentId": "cmhoj8kl10020lhncsjxinqsr",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-07T07:26:51.916Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:26:51.916Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T08:49:25.863Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:26:51.917Z",
+      "updatedAt": "2025-11-07T08:49:25.864Z"
+    },
+    {
+      "id": "cmhogxq1i000clhncogssvcj9",
+      "patientId": "cmhn3w00f000slhg4x19z5k4q",
+      "appointmentId": "cmhogxope000alhnc2x1tpk2i",
+      "doctorId": null,
+      "visitNumber": 2,
+      "visitType": "Follow-up",
+      "visitDate": "2025-11-07T06:22:25.300Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "COMPLETED",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T06:22:25.300Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T07:19:37.783Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": "2025-11-07T08:12:05.648Z",
+      "billingInitiatedAt": null,
+      "completedAt": "2025-11-07T08:12:05.648Z",
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T06:22:25.302Z",
+      "updatedAt": "2025-11-07T08:12:05.650Z"
+    },
+    {
+      "id": "cmhoj8wrt0029lhncg0esis8v",
+      "patientId": "cmhoj8t9m0025lhncak577md2",
+      "appointmentId": "cmhoj8vmz0027lhnczg25nkmo",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-07T07:27:06.472Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:27:06.472Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T08:49:32.864Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:27:06.473Z",
+      "updatedAt": "2025-11-07T08:49:32.865Z"
+    },
+    {
+      "id": "cmhogyvj1000ulhncjjoom63h",
+      "patientId": "cmhn3uti70007lhg41kdw37g9",
+      "appointmentId": "cmhogyucf000slhncoqwuwzdv",
+      "doctorId": null,
+      "visitNumber": 2,
+      "visitType": "Emergency",
+      "visitDate": "2025-11-07T06:23:19.068Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T06:23:19.068Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T07:19:47.843Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T06:23:19.070Z",
+      "updatedAt": "2025-11-07T07:19:47.845Z"
+    },
+    {
+      "id": "cmhoj8axe001vlhnc4by7zg3l",
+      "patientId": "cmhoj87ks001rlhncy6e55y9c",
+      "appointmentId": "cmhoj89t5001tlhncf227ie11",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-07T07:26:38.161Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:26:38.161Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T08:48:44.227Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:26:38.162Z",
+      "updatedAt": "2025-11-07T08:48:44.229Z"
+    },
+    {
+      "id": "cmhogz8gv0010lhncbs159v14",
+      "patientId": "cmhn3qqve0000lhg4w8a6xd3y",
+      "appointmentId": "cmhogz79u000ylhnc40gf2c2l",
+      "doctorId": null,
+      "visitNumber": 2,
+      "visitType": "Post-Op Checkup",
+      "visitDate": "2025-11-07T06:23:35.838Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T06:23:35.838Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T07:19:58.916Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T06:23:35.840Z",
+      "updatedAt": "2025-11-07T07:19:58.918Z"
+    },
+    {
+      "id": "cmhoj7puq001hlhncouhrcgix",
+      "patientId": "cmhoj7m27001dlhnc6h8c6pms",
+      "appointmentId": "cmhoj7ojp001flhncbhtr6yaq",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-07T07:26:10.849Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:26:10.849Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T08:48:53.669Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:26:10.851Z",
+      "updatedAt": "2025-11-07T08:48:53.670Z"
+    },
+    {
+      "id": "cmhojug7x00047kmcskgh0dzh",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "appointmentId": "cmhojueqd00027kmcfop0tlqk",
+      "doctorId": null,
+      "visitNumber": 2,
+      "visitType": "Post-Op Checkup",
+      "visitDate": "2025-11-07T07:43:51.450Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:43:51.450Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T08:49:39.535Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:43:51.453Z",
+      "updatedAt": "2025-11-07T08:49:39.538Z"
+    },
+    {
+      "id": "cmhogylna000olhnc9nd39tyx",
+      "patientId": "cmhn3vb03000elhg43hu9xbfh",
+      "appointmentId": "cmhogykhr000mlhnccf7s86wa",
+      "doctorId": null,
+      "visitNumber": 2,
+      "visitType": "Emergency",
+      "visitDate": "2025-11-07T06:23:06.261Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "COMPLETED",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T06:23:06.261Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T07:18:48.696Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": "2025-11-07T11:26:07.512Z",
+      "billingInitiatedAt": null,
+      "completedAt": "2025-11-07T11:26:07.512Z",
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T06:23:06.262Z",
+      "updatedAt": "2025-11-07T11:26:07.513Z"
+    },
+    {
+      "id": "cmhoj98n0002glhncp3xrjd9e",
+      "patientId": "cmhoj956h002clhnc46hfcd0a",
+      "appointmentId": "cmhoj97hq002elhnckg22oiy0",
+      "doctorId": null,
+      "visitNumber": 1,
+      "visitType": "routine",
+      "visitDate": "2025-11-07T07:27:21.852Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "AWAITING_DOCTOR",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T07:27:21.852Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T08:49:03.031Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:27:21.853Z",
+      "updatedAt": "2025-11-07T08:49:03.033Z"
+    },
+    {
+      "id": "cmhoy964y0003tzqkhibqcrdo",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "appointmentId": "cmhoy957q0001tzqkbp7p9elt",
+      "doctorId": null,
+      "visitNumber": 3,
+      "visitType": "Post-Op Checkup",
+      "visitDate": "2025-11-07T14:27:12.848Z",
+      "chiefComplaint": null,
+      "presentingSymptoms": null,
+      "visionComplaints": null,
+      "eyeSymptoms": null,
+      "onsetDuration": null,
+      "status": "WITH_OPTOMETRIST",
+      "priorityLevel": "routine",
+      "checkedInAt": "2025-11-07T14:27:12.848Z",
+      "optometristCalledAt": null,
+      "optometristSeenAt": "2025-11-07T14:27:21.039Z",
+      "doctorCalledAt": null,
+      "doctorSeenAt": null,
+      "billingInitiatedAt": null,
+      "completedAt": null,
+      "admissionDate": null,
+      "dischargeDate": null,
+      "estimatedCost": null,
+      "insuranceCoverage": null,
+      "totalEstimatedCost": 0,
+      "totalActualCost": 0,
+      "visitOutcome": null,
+      "followUpInstructions": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "nextAppointmentDate": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T14:27:12.850Z",
+      "updatedAt": "2025-11-07T14:27:21.039Z"
+    }
+  ],
+  "appointments": [
+    {
+      "id": "cmhn3qti40002lhg4gcpkmdam",
+      "patientId": "cmhn3qqve0000lhg4w8a6xd3y",
+      "doctorId": null,
+      "appointmentDate": "2025-11-06T07:25:21.902Z",
+      "appointmentTime": "12:55 PM",
+      "tokenNumber": "5318",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-06T07:25:22.012Z",
+      "updatedAt": "2025-11-06T07:25:24.796Z"
+    },
+    {
+      "id": "cmhn3uvvo0009lhg4xaim8fxi",
+      "patientId": "cmhn3uti70007lhg41kdw37g9",
+      "doctorId": null,
+      "appointmentDate": "2025-11-06T07:28:31.692Z",
+      "appointmentTime": "12:58 PM",
+      "tokenNumber": "4574",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-06T07:28:31.716Z",
+      "updatedAt": "2025-11-06T07:28:34.392Z"
+    },
+    {
+      "id": "cmhn3vddx000glhg4zu07pohw",
+      "patientId": "cmhn3vb03000elhg43hu9xbfh",
+      "doctorId": null,
+      "appointmentDate": "2025-11-06T07:28:54.390Z",
+      "appointmentTime": "12:58 PM",
+      "tokenNumber": "9893",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-06T07:28:54.404Z",
+      "updatedAt": "2025-11-06T07:28:55.807Z"
+    },
+    {
+      "id": "cmhn3vpix000nlhg40hfif6pt",
+      "patientId": "cmhn3vn2v000llhg4wt32wiph",
+      "doctorId": null,
+      "appointmentDate": "2025-11-06T07:29:10.121Z",
+      "appointmentTime": "12:59 PM",
+      "tokenNumber": "9412",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-06T07:29:10.137Z",
+      "updatedAt": "2025-11-06T07:29:11.832Z"
+    },
+    {
+      "id": "cmhn3w2h2000ulhg49y2804ju",
+      "patientId": "cmhn3w00f000slhg4x19z5k4q",
+      "doctorId": null,
+      "appointmentDate": "2025-11-06T07:29:26.902Z",
+      "appointmentTime": "12:59 PM",
+      "tokenNumber": "4670",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-06T07:29:26.918Z",
+      "updatedAt": "2025-11-06T07:29:28.665Z"
+    },
+    {
+      "id": "cmhogxope000alhnc2x1tpk2i",
+      "patientId": "cmhn3w00f000slhg4x19z5k4q",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T06:22:23.508Z",
+      "appointmentTime": "11:52 AM",
+      "tokenNumber": "3278",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "Follow-up",
+      "purpose": "fda",
+      "notes": "fasfsafsdf",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T06:22:23.570Z",
+      "updatedAt": "2025-11-07T06:22:25.282Z"
+    },
+    {
+      "id": "cmhogy1lo000glhncrv9si953",
+      "patientId": "cmhn3vn2v000llhg4wt32wiph",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T06:22:40.283Z",
+      "appointmentTime": "11:52 AM",
+      "tokenNumber": "8986",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "Emergency",
+      "purpose": "asdfasd",
+      "notes": "afasfs",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T06:22:40.285Z",
+      "updatedAt": "2025-11-07T06:22:41.605Z"
+    },
+    {
+      "id": "cmhogykhr000mlhnccf7s86wa",
+      "patientId": "cmhn3vb03000elhg43hu9xbfh",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T06:23:04.766Z",
+      "appointmentTime": "11:53 AM",
+      "tokenNumber": "8454",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "Emergency",
+      "purpose": "sdfsadf",
+      "notes": "sfsfsd",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T06:23:04.768Z",
+      "updatedAt": "2025-11-07T06:23:06.252Z"
+    },
+    {
+      "id": "cmhogyucf000slhncoqwuwzdv",
+      "patientId": "cmhn3uti70007lhg41kdw37g9",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T06:23:17.533Z",
+      "appointmentTime": "11:53 AM",
+      "tokenNumber": "5717",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "Emergency",
+      "purpose": "sfdsdfs",
+      "notes": "asfdsddsfsd",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T06:23:17.535Z",
+      "updatedAt": "2025-11-07T06:23:19.053Z"
+    },
+    {
+      "id": "cmhogz79u000ylhnc40gf2c2l",
+      "patientId": "cmhn3qqve0000lhg4w8a6xd3y",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T06:23:34.288Z",
+      "appointmentTime": "11:53 AM",
+      "tokenNumber": "9909",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "Post-Op Checkup",
+      "purpose": "erssdfgfdsg",
+      "notes": "asfsadfasew",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T06:23:34.290Z",
+      "updatedAt": "2025-11-07T06:23:35.830Z"
+    },
+    {
+      "id": "cmhoj7ojp001flhncbhtr6yaq",
+      "patientId": "cmhoj7m27001dlhnc6h8c6pms",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:26:09.137Z",
+      "appointmentTime": "12:56 PM",
+      "tokenNumber": "4754",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:26:09.158Z",
+      "updatedAt": "2025-11-07T07:26:10.830Z"
+    },
+    {
+      "id": "cmhoj7yo0001mlhncf6bkxu8s",
+      "patientId": "cmhoj7wd8001klhncdum47ljx",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:26:22.247Z",
+      "appointmentTime": "12:56 PM",
+      "tokenNumber": "1748",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:26:22.272Z",
+      "updatedAt": "2025-11-07T07:26:24.017Z"
+    },
+    {
+      "id": "cmhoj89t5001tlhncf227ie11",
+      "patientId": "cmhoj87ks001rlhncy6e55y9c",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:26:36.703Z",
+      "appointmentTime": "12:56 PM",
+      "tokenNumber": "9575",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:26:36.713Z",
+      "updatedAt": "2025-11-07T07:26:38.153Z"
+    },
+    {
+      "id": "cmhoj8kl10020lhncsjxinqsr",
+      "patientId": "cmhoj8iat001ylhncvpojt5zs",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:26:50.667Z",
+      "appointmentTime": "12:56 PM",
+      "tokenNumber": "4487",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:26:50.678Z",
+      "updatedAt": "2025-11-07T07:26:51.907Z"
+    },
+    {
+      "id": "cmhoj8vmz0027lhnczg25nkmo",
+      "patientId": "cmhoj8t9m0025lhncak577md2",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:27:04.989Z",
+      "appointmentTime": "12:57 PM",
+      "tokenNumber": "7915",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:27:05.003Z",
+      "updatedAt": "2025-11-07T07:27:06.459Z"
+    },
+    {
+      "id": "cmhoj97hq002elhnckg22oiy0",
+      "patientId": "cmhoj956h002clhnc46hfcd0a",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:27:20.358Z",
+      "appointmentTime": "12:57 PM",
+      "tokenNumber": "7428",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:27:20.367Z",
+      "updatedAt": "2025-11-07T07:27:21.843Z"
+    },
+    {
+      "id": "cmhoj9jwf002llhncadbkgutv",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:27:36.433Z",
+      "appointmentTime": "12:57 PM",
+      "tokenNumber": "2156",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "routine",
+      "purpose": "Initial Consultation - New Patient Registration",
+      "notes": "Patient registered by staff. Login credentials sent via email.",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:27:36.448Z",
+      "updatedAt": "2025-11-07T07:27:37.875Z"
+    },
+    {
+      "id": "cmhojueqd00027kmcfop0tlqk",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T07:43:49.446Z",
+      "appointmentTime": "01:13 PM",
+      "tokenNumber": "2977",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "Post-Op Checkup",
+      "purpose": "Post-Op Checkup appointment",
+      "notes": "Instant appointment booked by Receptionist One (receptionist)",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T07:43:49.490Z",
+      "updatedAt": "2025-11-07T07:43:51.428Z"
+    },
+    {
+      "id": "cmhoy957q0001tzqkbp7p9elt",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "doctorId": null,
+      "appointmentDate": "2025-11-07T14:27:11.614Z",
+      "appointmentTime": "07:57 PM",
+      "tokenNumber": "4648",
+      "qrCode": null,
+      "estimatedDuration": 30,
+      "status": "CHECKED_IN",
+      "appointmentType": "Post-Op Checkup",
+      "purpose": "Post-Op Checkup appointment",
+      "notes": "Instant appointment booked by Receptionist One (receptionist)",
+      "roomId": null,
+      "estimatedCost": null,
+      "cancelReason": null,
+      "rescheduledFrom": null,
+      "rescheduledTo": null,
+      "createdAt": "2025-11-07T14:27:11.653Z",
+      "updatedAt": "2025-11-07T14:27:12.844Z"
+    }
+  ],
+  "patientQueue": [
+    {
+      "id": "cmhn3uy60000dlhg4andsshf7",
+      "patientId": "cmhn3uti70007lhg41kdw37g9",
+      "patientVisitId": "cmhn3uy4n000blhg4uczzxymd",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 3,
+      "priority": 0,
+      "priorityLabel": "FOLLOWUP",
+      "status": "COMPLETED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 2,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-06T07:28:34.678Z",
+      "calledAt": "2025-11-06T10:11:05.329Z",
+      "inProgressAt": "2025-11-06T10:41:22.525Z",
+      "completedAt": "2025-11-07T05:22:35.857Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Queue reordered - Shifted from 2 to 3",
+      "transferReason": null,
+      "createdAt": "2025-11-06T07:28:34.680Z",
+      "updatedAt": "2025-11-07T05:22:35.858Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhn3vqv7000rlhg42ihu7fts",
+      "patientId": "cmhn3vn2v000llhg4wt32wiph",
+      "patientVisitId": "cmhn3vquf000plhg4vabz6hb7",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 1,
+      "priority": 0,
+      "priorityLabel": "LONGWAIT",
+      "status": "COMPLETED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 1,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-06T07:29:11.872Z",
+      "calledAt": "2025-11-06T11:20:53.515Z",
+      "inProgressAt": "2025-11-07T05:22:39.799Z",
+      "completedAt": "2025-11-07T05:28:25.965Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Queue reordered - Moved to position 1",
+      "transferReason": null,
+      "createdAt": "2025-11-06T07:29:11.875Z",
+      "updatedAt": "2025-11-07T05:28:25.967Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhn3qvpd0006lhg4rofnp4ni",
+      "patientId": "cmhn3qqve0000lhg4w8a6xd3y",
+      "patientVisitId": "cmhn3qvo40004lhg4rhwjayd3",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 1,
+      "priority": 0,
+      "priorityLabel": "REFERRAL",
+      "status": "COMPLETED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 3,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-06T07:25:24.863Z",
+      "calledAt": "2025-11-06T11:20:57.342Z",
+      "inProgressAt": "2025-11-07T05:28:30.899Z",
+      "completedAt": "2025-11-07T05:29:32.605Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Queue reordered - Shifted from 1 to 2",
+      "transferReason": null,
+      "createdAt": "2025-11-06T07:25:24.865Z",
+      "updatedAt": "2025-11-07T05:29:32.607Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhogylns000qlhncind31k4y",
+      "patientId": "cmhn3vb03000elhg43hu9xbfh",
+      "patientVisitId": "cmhogylna000olhnc9nd39tyx",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 1,
+      "priority": 0,
+      "priorityLabel": "ROUTINE",
+      "status": "COMPLETED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 1,
+      "estimatedWaitTime": 30,
+      "joinedAt": "2025-11-07T06:23:06.279Z",
+      "calledAt": "2025-11-07T08:12:17.316Z",
+      "inProgressAt": "2025-11-07T08:12:20.195Z",
+      "completedAt": "2025-11-07T11:26:07.480Z",
+      "onHoldAt": "2025-11-07T10:31:23.152Z",
+      "resumedAt": "2025-11-07T11:02:00.439Z",
+      "holdReason": "Eye drops applied by cmhn4ec1k0019lhg4ijozo1sr at 4:01:58 pm",
+      "estimatedResumeTime": "2025-11-07T11:01:58.743Z",
+      "actualHoldDuration": 30,
+      "notes": "Time-sensitive pre-operative evaluation needed - Position changed from 3 to 1",
+      "transferReason": null,
+      "createdAt": "2025-11-07T06:23:06.280Z",
+      "updatedAt": "2025-11-07T11:26:07.481Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhn3veia000klhg47qh0kudi",
+      "patientId": "cmhn3vb03000elhg43hu9xbfh",
+      "patientVisitId": "cmhn3vehd000ilhg4j7ozpz3m",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 1,
+      "priority": 0,
+      "priorityLabel": "PRIORITY",
+      "status": "COMPLETED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 2,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-06T07:28:55.855Z",
+      "calledAt": "2025-11-06T11:20:54.663Z",
+      "inProgressAt": "2025-11-07T05:29:35.148Z",
+      "completedAt": "2025-11-07T05:30:19.802Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Queue reordered - Shifted from 3 to 4",
+      "transferReason": null,
+      "createdAt": "2025-11-06T07:28:55.858Z",
+      "updatedAt": "2025-11-07T05:30:19.804Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhn3w3um000ylhg4ano1svu5",
+      "patientId": "cmhn3w00f000slhg4x19z5k4q",
+      "patientVisitId": "cmhn3w3tz000wlhg4mwx6yteg",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 5,
+      "priority": 0,
+      "priorityLabel": "EMERGENCY",
+      "status": "COMPLETED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 1,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-06T07:29:28.700Z",
+      "calledAt": "2025-11-06T09:30:29.914Z",
+      "inProgressAt": "2025-11-06T09:30:56.723Z",
+      "completedAt": "2025-11-06T10:10:32.793Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": null,
+      "transferReason": null,
+      "createdAt": "2025-11-06T07:29:28.702Z",
+      "updatedAt": "2025-11-06T10:10:32.796Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoj8wsk002blhnci5b8yc5j",
+      "patientId": "cmhoj8t9m0025lhncak577md2",
+      "patientVisitId": "cmhoj8wrt0029lhncg0esis8v",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 11,
+      "priority": 0,
+      "priorityLabel": "LONGWAIT",
+      "status": "ON_HOLD",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 2,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T07:27:06.499Z",
+      "calledAt": "2025-11-07T10:41:37.893Z",
+      "inProgressAt": "2025-11-07T10:42:00.049Z",
+      "completedAt": "2025-11-07T08:49:32.833Z",
+      "onHoldAt": "2025-11-07T10:42:02.408Z",
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Brought EMERGENCY patients to top of queue - Position changed from 7 to 7",
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:27:06.500Z",
+      "updatedAt": "2025-11-07T10:42:02.408Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhogyvjl000wlhncf764425g",
+      "patientId": "cmhn3uti70007lhg41kdw37g9",
+      "patientVisitId": "cmhogyvj1000ulhncjjoom63h",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 3,
+      "priority": 0,
+      "priorityLabel": "EMERGENCY",
+      "status": "ON_HOLD",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 1,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T06:23:19.088Z",
+      "calledAt": "2025-11-07T10:49:45.348Z",
+      "inProgressAt": "2025-11-07T10:49:51.661Z",
+      "completedAt": "2025-11-07T07:19:47.822Z",
+      "onHoldAt": "2025-11-07T10:49:54.644Z",
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Brought EMERGENCY patients to top of queue - Position changed from 4 to 4",
+      "transferReason": null,
+      "createdAt": "2025-11-07T06:23:19.089Z",
+      "updatedAt": "2025-11-07T10:49:54.644Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhogy2ny000klhncke8dj0vq",
+      "patientId": "cmhn3vn2v000llhg4wt32wiph",
+      "patientVisitId": "cmhogy2mv000ilhnc5w7jlbit",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 1,
+      "priority": 0,
+      "priorityLabel": "ROUTINE",
+      "status": "WAITING",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 5,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T06:22:41.661Z",
+      "calledAt": null,
+      "inProgressAt": null,
+      "completedAt": "2025-11-07T07:19:14.078Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Time-sensitive pre-operative evaluation needed - Position changed from 1 to 2",
+      "transferReason": null,
+      "createdAt": "2025-11-07T06:22:41.662Z",
+      "updatedAt": "2025-11-07T11:26:07.497Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoj7pvq001jlhncc12k31si",
+      "patientId": "cmhoj7m27001dlhnc6h8c6pms",
+      "patientVisitId": "cmhoj7puq001hlhncouhrcgix",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 6,
+      "priority": 0,
+      "priorityLabel": "EMERGENCY",
+      "status": "WAITING",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 6,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T07:26:10.885Z",
+      "calledAt": null,
+      "inProgressAt": null,
+      "completedAt": "2025-11-07T08:48:53.602Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Time-sensitive pre-operative evaluation needed - Position changed from 1 to 3",
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:26:10.887Z",
+      "updatedAt": "2025-11-07T11:26:07.497Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoj8axv001xlhnc58yl658t",
+      "patientId": "cmhoj87ks001rlhncy6e55y9c",
+      "patientVisitId": "cmhoj8axe001vlhnc4by7zg3l",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 5,
+      "priority": 0,
+      "priorityLabel": "EMERGENCY",
+      "status": "WAITING",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 7,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T07:26:38.179Z",
+      "calledAt": null,
+      "inProgressAt": null,
+      "completedAt": "2025-11-07T08:48:44.124Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Time-sensitive pre-operative evaluation needed - Position changed from 3 to 2",
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:26:38.180Z",
+      "updatedAt": "2025-11-07T11:26:07.497Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoj9l1b002plhncqstemgqp",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "patientVisitId": "cmhoj9l0g002nlhncrw1bolsl",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 8,
+      "priority": 0,
+      "priorityLabel": "EMERGENCY",
+      "status": "WAITING",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 8,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T07:27:37.918Z",
+      "calledAt": null,
+      "inProgressAt": null,
+      "completedAt": "2025-11-07T08:49:08.474Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Brought EMERGENCY patients to top of queue - Position changed from 6 to 5",
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:27:37.920Z",
+      "updatedAt": "2025-11-07T11:26:07.497Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoj801y001qlhncurxs9f2u",
+      "patientId": "cmhoj7wd8001klhncdum47ljx",
+      "patientVisitId": "cmhoj800z001olhncqkn65u25",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 4,
+      "priority": 0,
+      "priorityLabel": "CHILDREN",
+      "status": "WAITING",
+      "assignedStaffId": "cmhnbyntr00017kiwewbkfuzh",
+      "doctorQueuePosition": null,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T07:26:24.069Z",
+      "calledAt": null,
+      "inProgressAt": null,
+      "completedAt": "2025-11-07T07:45:01.913Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Time-sensitive pre-operative evaluation needed - Position changed from 2 to 1",
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:26:24.070Z",
+      "updatedAt": "2025-11-07T11:26:07.497Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoj98ni002ilhnceguznj6x",
+      "patientId": "cmhoj956h002clhnc46hfcd0a",
+      "patientVisitId": "cmhoj98n0002glhncp3xrjd9e",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 7,
+      "priority": 0,
+      "priorityLabel": "EMERGENCY",
+      "status": "CALLED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 4,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T07:27:21.869Z",
+      "calledAt": "2025-11-07T11:26:11.214Z",
+      "inProgressAt": null,
+      "completedAt": "2025-11-07T08:49:02.939Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Brought EMERGENCY patients to top of queue - Position changed from 4 to 4",
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:27:21.871Z",
+      "updatedAt": "2025-11-07T11:26:11.215Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhogz8hf0012lhnck17k4fls",
+      "patientId": "cmhn3qqve0000lhg4w8a6xd3y",
+      "patientVisitId": "cmhogz8gv0010lhncbs159v14",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 3,
+      "priority": 0,
+      "priorityLabel": "ROUTINE",
+      "status": "IN_PROGRESS",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 2,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T06:23:35.858Z",
+      "calledAt": "2025-11-07T11:24:13.532Z",
+      "inProgressAt": "2025-11-07T12:40:00.110Z",
+      "completedAt": "2025-11-07T07:19:58.903Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Brought EMERGENCY patients to top of queue - Position changed from 5 to 5",
+      "transferReason": null,
+      "createdAt": "2025-11-07T06:23:35.859Z",
+      "updatedAt": "2025-11-07T12:40:00.112Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoy96570005tzqkpxt8l2xa",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "patientVisitId": "cmhoy964y0003tzqkhibqcrdo",
+      "queueFor": "OPTOMETRIST",
+      "queueNumber": 1,
+      "priority": 0,
+      "priorityLabel": "ROUTINE",
+      "status": "IN_PROGRESS",
+      "assignedStaffId": "cmhn157ow00007km0qay4vn71",
+      "doctorQueuePosition": null,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T14:27:12.858Z",
+      "calledAt": "2025-11-07T14:27:20.360Z",
+      "inProgressAt": "2025-11-07T14:27:20.987Z",
+      "completedAt": null,
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": null,
+      "transferReason": null,
+      "createdAt": "2025-11-07T14:27:12.860Z",
+      "updatedAt": "2025-11-07T14:27:20.987Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhoj8ljz0024lhnc86wt205q",
+      "patientId": "cmhoj8iat001ylhncvpojt5zs",
+      "patientVisitId": "cmhoj8ljg0022lhnc92z9yq75",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 10,
+      "priority": 0,
+      "priorityLabel": "LONGWAIT",
+      "status": "ON_HOLD",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 1,
+      "estimatedWaitTime": 30,
+      "joinedAt": "2025-11-07T07:26:51.934Z",
+      "calledAt": "2025-11-07T09:51:37.405Z",
+      "inProgressAt": "2025-11-07T10:36:46.939Z",
+      "completedAt": "2025-11-07T08:49:25.803Z",
+      "onHoldAt": "2025-11-07T10:36:49.583Z",
+      "resumedAt": null,
+      "holdReason": "Eye drops applied by cmhn4ec1k0019lhg4ijozo1sr at 8:18:33 pm",
+      "estimatedResumeTime": "2025-11-07T15:18:33.972Z",
+      "actualHoldDuration": null,
+      "notes": "Brought EMERGENCY patients to top of queue - Position changed from 5 to 6",
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:26:51.935Z",
+      "updatedAt": "2025-11-07T14:48:33.973Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhogxq2l000elhncu2uyg509",
+      "patientId": "cmhn3w00f000slhg4x19z5k4q",
+      "patientVisitId": "cmhogxq1i000clhncogssvcj9",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 3,
+      "priority": 0,
+      "priorityLabel": "ROUTINE",
+      "status": "COMPLETED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": null,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T06:22:25.339Z",
+      "calledAt": "2025-11-07T07:47:53.719Z",
+      "inProgressAt": "2025-11-07T07:47:56.297Z",
+      "completedAt": "2025-11-07T08:12:05.609Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": "Time-sensitive pre-operative evaluation needed - Position changed from 2 to 3",
+      "transferReason": null,
+      "createdAt": "2025-11-07T06:22:25.341Z",
+      "updatedAt": "2025-11-07T08:12:05.611Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    },
+    {
+      "id": "cmhojug9400067kmckvixvrm9",
+      "patientId": "cmhoj9hee002jlhnctpqu28b8",
+      "patientVisitId": "cmhojug7x00047kmcskgh0dzh",
+      "queueFor": "OPHTHALMOLOGIST",
+      "queueNumber": 11,
+      "priority": 0,
+      "priorityLabel": "ROUTINE",
+      "status": "CALLED",
+      "assignedStaffId": "cmhn157vr00037km0gv0ixhzn",
+      "doctorQueuePosition": 3,
+      "estimatedWaitTime": null,
+      "joinedAt": "2025-11-07T07:43:51.494Z",
+      "calledAt": "2025-11-07T11:25:39.610Z",
+      "inProgressAt": null,
+      "completedAt": "2025-11-07T08:49:39.515Z",
+      "onHoldAt": null,
+      "resumedAt": null,
+      "holdReason": null,
+      "estimatedResumeTime": null,
+      "actualHoldDuration": null,
+      "notes": null,
+      "transferReason": null,
+      "createdAt": "2025-11-07T07:43:51.496Z",
+      "updatedAt": "2025-11-07T11:26:07.497Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null
+    }
+  ],
+  "optometristExaminations": [
+    {
+      "id": "cmhn442mz0010lhg4e059mk4c",
+      "patientVisitId": "cmhn3qvo40004lhg4rhwjayd3",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N12",
+          "rightEye": "N12",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/36",
+          "rightEye": "6/36",
+          "binocular": "6/9"
+        }
+      },
+      "refraction": {
+        "pd": "46",
+        "add": {
+          "leftEye": "32",
+          "rightEye": "32"
+        },
+        "axis": {
+          "leftEye": "134",
+          "rightEye": "31"
+        },
+        "sphere": {
+          "leftEye": "32",
+          "rightEye": "24"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "234"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "21",
+          "rightEye": "32"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "red-green-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "sluggish",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "3",
+            "rightEye": "1"
+          },
+          "k2": {
+            "leftEye": "cerno suggero creator",
+            "rightEye": "demens canis utpote"
+          },
+          "acd": {
+            "leftEye": "ex theca vita",
+            "rightEye": "supplanto auditor animus"
+          },
+          "axl": {
+            "leftEye": "tergeo urbs curvo",
+            "rightEye": "demens canis utpote"
+          },
+          "flatAxis": {
+            "leftEye": "aut confugo culpa",
+            "rightEye": "cerno suggero creator"
+          },
+          "iolImplanted": {
+            "leftEye": "supplanto auditor animus",
+            "rightEye": "creber convoco tui"
+          },
+          "anyOtherDetails": {
+            "leftEye": "tergeo urbs curvo",
+            "rightEye": "tergeo urbs curvo"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "supplanto auditor animus",
+            "rightEye": "aggredior cupressus aveho"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "clear"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "congestion"
+          }
+        }
+      },
+      "clinicalNotes": "trepide incidunt subiungo",
+      "preliminaryDiagnosis": "diabetic-retinopathy",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 24,
+      "refractionCylinderOD": 234,
+      "refractionAxisOD": 31,
+      "refractionSphereOS": 32,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 134,
+      "iopOD": 32,
+      "iopOS": 21,
+      "iopMethod": "nctonometry",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "sluggish",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "trepide incidunt subiungo",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-06T07:35:39.364Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:35:40.379Z",
+      "updatedAt": "2025-11-06T07:35:40.379Z"
+    },
+    {
+      "id": "cmhn44sz90012lhg4jgb4g8m4",
+      "patientVisitId": "cmhn3uy4n000blhg4uczzxymd",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N12",
+          "rightEye": "N12",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/36",
+          "rightEye": "6/36",
+          "binocular": "6/9"
+        }
+      },
+      "refraction": {
+        "pd": "46",
+        "add": {
+          "leftEye": "32",
+          "rightEye": "32"
+        },
+        "axis": {
+          "leftEye": "134",
+          "rightEye": "31"
+        },
+        "sphere": {
+          "leftEye": "32",
+          "rightEye": "24"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "234"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "19",
+          "rightEye": "44"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "red-green-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "sluggish",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "aperte traho ustulo",
+            "rightEye": "tubineus comminor ara"
+          },
+          "k2": {
+            "leftEye": "synagoga arca video",
+            "rightEye": "saepe ultra cognomen"
+          },
+          "acd": {
+            "leftEye": "tubineus comminor ara",
+            "rightEye": "sollicito stultus veritas"
+          },
+          "axl": {
+            "leftEye": "absque delibero ater",
+            "rightEye": "acervus cura acceptus"
+          },
+          "flatAxis": {
+            "leftEye": "supplanto temptatio alter",
+            "rightEye": "synagoga arca video"
+          },
+          "iolImplanted": {
+            "leftEye": "synagoga arca video",
+            "rightEye": "substantia praesentium vitium"
+          },
+          "anyOtherDetails": {
+            "leftEye": "utroque minima theatrum",
+            "rightEye": "tubineus comminor ara"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "canto vita clibanus",
+            "rightEye": "saepe ultra cognomen"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "mass"
+          }
+        }
+      },
+      "clinicalNotes": "bellum aduro convoco",
+      "preliminaryDiagnosis": "dry-eye",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 24,
+      "refractionCylinderOD": 234,
+      "refractionAxisOD": 31,
+      "refractionSphereOS": 32,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 134,
+      "iopOD": 44,
+      "iopOS": 19,
+      "iopMethod": "nctonometry",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "sluggish",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "bellum aduro convoco",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-06T07:36:14.140Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:36:14.517Z",
+      "updatedAt": "2025-11-06T07:36:14.517Z"
+    },
+    {
+      "id": "cmhn45fqo0014lhg4hc6z2fif",
+      "patientVisitId": "cmhn3vehd000ilhg4j7ozpz3m",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N12",
+          "rightEye": "N12",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/36",
+          "rightEye": "6/36",
+          "binocular": "6/9"
+        }
+      },
+      "refraction": {
+        "pd": "46",
+        "add": {
+          "leftEye": "32",
+          "rightEye": "32"
+        },
+        "axis": {
+          "leftEye": "134",
+          "rightEye": "31"
+        },
+        "sphere": {
+          "leftEye": "32",
+          "rightEye": "24"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "234"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "19",
+          "rightEye": "44"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "red-green-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "sluggish",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "cruentus cohibeo convoco",
+            "rightEye": "vomer adsidue atque"
+          },
+          "k2": {
+            "leftEye": "confero degenero atrocitas",
+            "rightEye": "celebrer harum argumentum"
+          },
+          "acd": {
+            "leftEye": "utpote patior desparatus",
+            "rightEye": "advoco tres auxilium"
+          },
+          "axl": {
+            "leftEye": "confero degenero atrocitas",
+            "rightEye": "exercitationem comprehendo arca"
+          },
+          "flatAxis": {
+            "leftEye": "advoco tres auxilium",
+            "rightEye": "amet calamitas blanditiis"
+          },
+          "iolImplanted": {
+            "leftEye": "voluntarius tres incidunt",
+            "rightEye": "celebrer harum argumentum"
+          },
+          "anyOtherDetails": {
+            "leftEye": "cuppedia terminatio triduana",
+            "rightEye": "cresco vigor cur"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "atqui terga earum",
+            "rightEye": "cuppedia terminatio triduana"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "mass"
+          }
+        }
+      },
+      "clinicalNotes": "amet calamitas blanditiis",
+      "preliminaryDiagnosis": "normal",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        },
+        {
+          "id": 3,
+          "name": "Latex",
+          "reaction": "Contact dermatitis",
+          "severity": "Low"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 24,
+      "refractionCylinderOD": 234,
+      "refractionAxisOD": 31,
+      "refractionSphereOS": 32,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 134,
+      "iopOD": 44,
+      "iopOS": 19,
+      "iopMethod": "nctonometry",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "sluggish",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "amet calamitas blanditiis",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-06T07:36:43.652Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:36:44.015Z",
+      "updatedAt": "2025-11-06T07:36:44.015Z"
+    },
+    {
+      "id": "cmhn45vxl0016lhg4i6zyutol",
+      "patientVisitId": "cmhn3vquf000plhg4vabz6hb7",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N12",
+          "rightEye": "N12",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/36",
+          "rightEye": "6/36",
+          "binocular": "6/9"
+        }
+      },
+      "refraction": {
+        "pd": "46",
+        "add": {
+          "leftEye": "32",
+          "rightEye": "32"
+        },
+        "axis": {
+          "leftEye": "134",
+          "rightEye": "31"
+        },
+        "sphere": {
+          "leftEye": "32",
+          "rightEye": "24"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "234"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "19",
+          "rightEye": "44"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "red-green-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "sluggish",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "cursus comprehendo avarus",
+            "rightEye": "nihil tricesimus peior"
+          },
+          "k2": {
+            "leftEye": "perferendis sponte deporto",
+            "rightEye": "magni ullus ancilla"
+          },
+          "acd": {
+            "leftEye": "stultus creber voveo",
+            "rightEye": "supplanto spectaculum tamen"
+          },
+          "axl": {
+            "leftEye": "arguo ceno bestia",
+            "rightEye": "terra creta defleo"
+          },
+          "flatAxis": {
+            "leftEye": "supplanto spectaculum tamen",
+            "rightEye": "aperio aliqua demergo"
+          },
+          "iolImplanted": {
+            "leftEye": "consectetur volutabrum animadverto",
+            "rightEye": "perferendis sponte deporto"
+          },
+          "anyOtherDetails": {
+            "leftEye": "iusto tenuis cunae",
+            "rightEye": "supplanto spectaculum tamen"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "supplanto spectaculum tamen",
+            "rightEye": "vitium audio allatus"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "mass"
+          }
+        }
+      },
+      "clinicalNotes": "patior est enim",
+      "preliminaryDiagnosis": "normal",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 24,
+      "refractionCylinderOD": 234,
+      "refractionAxisOD": 31,
+      "refractionSphereOS": 32,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 134,
+      "iopOD": 44,
+      "iopOS": 19,
+      "iopMethod": "nctonometry",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "sluggish",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "patior est enim",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-06T07:37:04.547Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:37:05.000Z",
+      "updatedAt": "2025-11-06T07:37:05.000Z"
+    },
+    {
+      "id": "cmhn46h0s0018lhg48anb3ovc",
+      "patientVisitId": "cmhn3w3tz000wlhg4mwx6yteg",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N12",
+          "rightEye": "N12",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/36",
+          "rightEye": "6/36",
+          "binocular": "6/9"
+        }
+      },
+      "refraction": {
+        "pd": "46",
+        "add": {
+          "leftEye": "32",
+          "rightEye": "32"
+        },
+        "axis": {
+          "leftEye": "134",
+          "rightEye": "31"
+        },
+        "sphere": {
+          "leftEye": "32",
+          "rightEye": "24"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "234"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "19",
+          "rightEye": "44"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "red-green-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "sluggish",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "defessus caritas suus",
+            "rightEye": "certus appello color"
+          },
+          "k2": {
+            "leftEye": "crux ancilla tutamen",
+            "rightEye": "constans antea valens"
+          },
+          "acd": {
+            "leftEye": "occaecati commodo velociter",
+            "rightEye": "crux ancilla tutamen"
+          },
+          "axl": {
+            "leftEye": "voluptatum aspicio vulgus",
+            "rightEye": "certus appello color"
+          },
+          "flatAxis": {
+            "leftEye": "asporto adfectus colo",
+            "rightEye": "crux ancilla tutamen"
+          },
+          "iolImplanted": {
+            "leftEye": "video virgo deludo",
+            "rightEye": "video virgo deludo"
+          },
+          "anyOtherDetails": {
+            "leftEye": "cunabula tego sufficio",
+            "rightEye": "peior somnus suus"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "certus appello color",
+            "rightEye": "sol capillus nulla"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "mass"
+          }
+        }
+      },
+      "clinicalNotes": "depopulo umbra aegrotatio",
+      "preliminaryDiagnosis": "diabetic-retinopathy",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 24,
+      "refractionCylinderOD": 234,
+      "refractionAxisOD": 31,
+      "refractionSphereOS": 32,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 134,
+      "iopOD": 44,
+      "iopOS": 19,
+      "iopMethod": "nctonometry",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "sluggish",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "depopulo umbra aegrotatio",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-06T07:37:31.764Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-06T07:37:32.331Z",
+      "updatedAt": "2025-11-06T07:37:32.331Z"
+    },
+    {
+      "id": "cmhoiy8i80014lhnc0mx6q6b9",
+      "patientVisitId": "cmhogylna000olhnc9nd39tyx",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N14",
+          "rightEye": "N14",
+          "binocular": "N14"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "CF",
+          "rightEye": "CF",
+          "binocular": "6/6"
+        }
+      },
+      "refraction": {
+        "pd": "32",
+        "add": {
+          "leftEye": "233",
+          "rightEye": "2"
+        },
+        "axis": {
+          "leftEye": "3",
+          "rightEye": "32"
+        },
+        "sphere": {
+          "leftEye": "232",
+          "rightEye": "32"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "323"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "43",
+          "rightEye": "43"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "343",
+            "rightEye": "34"
+          },
+          "k2": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "acd": {
+            "leftEye": "333",
+            "rightEye": "33"
+          },
+          "axl": {
+            "leftEye": "3",
+            "rightEye": "33"
+          },
+          "flatAxis": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "iolImplanted": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "anyOtherDetails": {
+            "leftEye": "dsfggggggggg",
+            "rightEye": "ggsfdddddd"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "333",
+            "rightEye": "333"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "congestion"
+          }
+        }
+      },
+      "clinicalNotes": "asfsafe",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "CF",
+      "ucvaOS": "CF",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 32,
+      "refractionCylinderOD": 323,
+      "refractionAxisOD": 32,
+      "refractionSphereOS": 232,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 3,
+      "iopOD": 43,
+      "iopOS": 43,
+      "iopMethod": "nctonometry",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "asfsafe",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T07:18:48.053Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:18:48.464Z",
+      "updatedAt": "2025-11-07T07:18:48.464Z"
+    },
+    {
+      "id": "cmhoiys840016lhnc60klt40s",
+      "patientVisitId": "cmhogy2mv000ilhnc5w7jlbit",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N14",
+          "rightEye": "N14",
+          "binocular": "N14"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "CF",
+          "rightEye": "CF",
+          "binocular": "6/6"
+        }
+      },
+      "refraction": {
+        "pd": "32",
+        "add": {
+          "leftEye": "233",
+          "rightEye": "2"
+        },
+        "axis": {
+          "leftEye": "3",
+          "rightEye": "32"
+        },
+        "sphere": {
+          "leftEye": "232",
+          "rightEye": "32"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "323"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "43",
+          "rightEye": "43"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "343",
+            "rightEye": "34"
+          },
+          "k2": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "acd": {
+            "leftEye": "333",
+            "rightEye": "33"
+          },
+          "axl": {
+            "leftEye": "3",
+            "rightEye": "33"
+          },
+          "flatAxis": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "iolImplanted": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "anyOtherDetails": {
+            "leftEye": "dsfggggggggg",
+            "rightEye": "ggsfdddddd"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "333",
+            "rightEye": "333"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "congestion"
+          }
+        }
+      },
+      "clinicalNotes": "asfsafeasfddddddd",
+      "preliminaryDiagnosis": "conjunctivitis",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        },
+        {
+          "id": 3,
+          "name": "Latex",
+          "reaction": "Contact dermatitis",
+          "severity": "Low"
+        }
+      ],
+      "ucvaOD": "CF",
+      "ucvaOS": "CF",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 32,
+      "refractionCylinderOD": 323,
+      "refractionAxisOD": 32,
+      "refractionSphereOS": 232,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 3,
+      "iopOD": 43,
+      "iopOS": 43,
+      "iopMethod": "nctonometry",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "asfsafeasfddddddd",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T07:19:13.789Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:19:14.020Z",
+      "updatedAt": "2025-11-07T07:19:14.020Z"
+    },
+    {
+      "id": "cmhoizahr0018lhnco5clgg6a",
+      "patientVisitId": "cmhogxq1i000clhncogssvcj9",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N14",
+          "rightEye": "N14",
+          "binocular": "N14"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "CF",
+          "rightEye": "CF",
+          "binocular": "6/6"
+        }
+      },
+      "refraction": {
+        "pd": "32",
+        "add": {
+          "leftEye": "233",
+          "rightEye": "2"
+        },
+        "axis": {
+          "leftEye": "3",
+          "rightEye": "32"
+        },
+        "sphere": {
+          "leftEye": "232",
+          "rightEye": "32"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "323"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "43",
+          "rightEye": "43"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "343",
+            "rightEye": "34"
+          },
+          "k2": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "acd": {
+            "leftEye": "333",
+            "rightEye": "33"
+          },
+          "axl": {
+            "leftEye": "3",
+            "rightEye": "33"
+          },
+          "flatAxis": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "iolImplanted": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "anyOtherDetails": {
+            "leftEye": "dsfggggggggg",
+            "rightEye": "ggsfdddddd"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "333",
+            "rightEye": "333"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "congestion"
+          }
+        }
+      },
+      "clinicalNotes": "asfsafeasfdddddddasssssssssssss",
+      "preliminaryDiagnosis": "refractive-error",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "CF",
+      "ucvaOS": "CF",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 32,
+      "refractionCylinderOD": 323,
+      "refractionAxisOD": 32,
+      "refractionSphereOS": 232,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 3,
+      "iopOD": 43,
+      "iopOS": 43,
+      "iopMethod": "nctonometry",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "asfsafeasfdddddddasssssssssssss",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T07:19:37.381Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:19:37.696Z",
+      "updatedAt": "2025-11-07T07:19:37.696Z"
+    },
+    {
+      "id": "cmhoizi9e001alhncm3eyrw7v",
+      "patientVisitId": "cmhogyvj1000ulhncjjoom63h",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N14",
+          "rightEye": "N14",
+          "binocular": "N14"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "CF",
+          "rightEye": "CF",
+          "binocular": "6/6"
+        }
+      },
+      "refraction": {
+        "pd": "32",
+        "add": {
+          "leftEye": "233",
+          "rightEye": "2"
+        },
+        "axis": {
+          "leftEye": "3",
+          "rightEye": "32"
+        },
+        "sphere": {
+          "leftEye": "232",
+          "rightEye": "32"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "323"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "43",
+          "rightEye": "43"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "343",
+            "rightEye": "34"
+          },
+          "k2": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "acd": {
+            "leftEye": "333",
+            "rightEye": "33"
+          },
+          "axl": {
+            "leftEye": "3",
+            "rightEye": "33"
+          },
+          "flatAxis": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "iolImplanted": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "anyOtherDetails": {
+            "leftEye": "dsfggggggggg",
+            "rightEye": "ggsfdddddd"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "333",
+            "rightEye": "333"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "congestion"
+          }
+        }
+      },
+      "clinicalNotes": "asfsafeasfdddddddasssasfdssssssssss",
+      "preliminaryDiagnosis": "normal",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [],
+      "ucvaOD": "CF",
+      "ucvaOS": "CF",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 32,
+      "refractionCylinderOD": 323,
+      "refractionAxisOD": 32,
+      "refractionSphereOS": 232,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 3,
+      "iopOD": 43,
+      "iopOS": 43,
+      "iopMethod": "nctonometry",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "asfsafeasfdddddddasssasfdssssssssss",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T07:19:47.549Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:19:47.763Z",
+      "updatedAt": "2025-11-07T07:19:47.763Z"
+    },
+    {
+      "id": "cmhoizqta001clhncbazzkmwh",
+      "patientVisitId": "cmhogz8gv0010lhncbs159v14",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N14",
+          "rightEye": "N14",
+          "binocular": "N14"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "CF",
+          "rightEye": "CF",
+          "binocular": "6/6"
+        }
+      },
+      "refraction": {
+        "pd": "32",
+        "add": {
+          "leftEye": "233",
+          "rightEye": "2"
+        },
+        "axis": {
+          "leftEye": "3",
+          "rightEye": "32"
+        },
+        "sphere": {
+          "leftEye": "232",
+          "rightEye": "32"
+        },
+        "cylinder": {
+          "leftEye": "32",
+          "rightEye": "323"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "43",
+          "rightEye": "43"
+        },
+        "time": "",
+        "method": "nctonometry"
+      },
+      "additionalTests": {
+        "coverTest": "exotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "corneal-opacity",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "343",
+            "rightEye": "34"
+          },
+          "k2": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "acd": {
+            "leftEye": "333",
+            "rightEye": "33"
+          },
+          "axl": {
+            "leftEye": "3",
+            "rightEye": "33"
+          },
+          "flatAxis": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "iolImplanted": {
+            "leftEye": "33",
+            "rightEye": "33"
+          },
+          "anyOtherDetails": {
+            "leftEye": "dsfggggggggg",
+            "rightEye": "ggsfdddddd"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "333",
+            "rightEye": "333"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "congestion"
+          }
+        }
+      },
+      "clinicalNotes": "asfsafeasfdddddddasssasfdssssssssssaaaaaaaaaaaa",
+      "preliminaryDiagnosis": "dry-eye",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "CF",
+      "ucvaOS": "CF",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 32,
+      "refractionCylinderOD": 323,
+      "refractionAxisOD": 32,
+      "refractionSphereOS": 232,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 3,
+      "iopOD": 43,
+      "iopOS": 43,
+      "iopMethod": "nctonometry",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "corneal-opacity"
+      },
+      "additionalNotes": "asfsafeasfdddddddasssasfdssssssssssaaaaaaaaaaaa",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T07:19:58.517Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:19:58.846Z",
+      "updatedAt": "2025-11-07T07:19:58.846Z"
+    },
+    {
+      "id": "cmhojvyi600087kmc4lot9gun",
+      "patientVisitId": "cmhoj800z001olhncqkn65u25",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        }
+      },
+      "refraction": {
+        "pd": "",
+        "add": {
+          "leftEye": "",
+          "rightEye": ""
+        },
+        "axis": {
+          "leftEye": "",
+          "rightEye": ""
+        },
+        "sphere": {
+          "leftEye": "",
+          "rightEye": ""
+        },
+        "cylinder": {
+          "leftEye": "",
+          "rightEye": ""
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "",
+          "rightEye": ""
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "orthophoric",
+        "colorVision": "normal",
+        "eyeAlignment": "normal",
+        "pupilReaction": "normal",
+        "anteriorSegment": "normal",
+        "extraocularMovements": "full"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "",
+            "rightEye": ""
+          },
+          "k2": {
+            "leftEye": "",
+            "rightEye": ""
+          },
+          "acd": {
+            "leftEye": "",
+            "rightEye": ""
+          },
+          "axl": {
+            "leftEye": "",
+            "rightEye": ""
+          },
+          "flatAxis": {
+            "leftEye": "",
+            "rightEye": ""
+          },
+          "iolImplanted": {
+            "leftEye": "",
+            "rightEye": ""
+          },
+          "anyOtherDetails": {
+            "leftEye": "",
+            "rightEye": ""
+          },
+          "iolPowerPlanned": {
+            "leftEye": "",
+            "rightEye": ""
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "clear"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "normal"
+          }
+        }
+      },
+      "clinicalNotes": "",
+      "preliminaryDiagnosis": "",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        }
+      ],
+      "ucvaOD": "",
+      "ucvaOS": "",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": null,
+      "refractionCylinderOD": null,
+      "refractionAxisOD": null,
+      "refractionSphereOS": null,
+      "refractionCylinderOS": null,
+      "refractionAxisOS": null,
+      "iopOD": null,
+      "iopOS": null,
+      "iopMethod": "goldmann",
+      "colorVision": "normal",
+      "pupilReaction": "normal",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "normal"
+      },
+      "additionalNotes": "",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T07:45:01.436Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T07:45:01.806Z",
+      "updatedAt": "2025-11-07T07:45:01.806Z"
+    },
+    {
+      "id": "cmhom5vqk002xlhnc4j92tony",
+      "patientVisitId": "cmhoj8axe001vlhnc4by7zg3l",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N10",
+          "rightEye": "N10",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/24",
+          "rightEye": "6/36",
+          "binocular": "6/12"
+        }
+      },
+      "refraction": {
+        "pd": "67",
+        "add": {
+          "leftEye": "59",
+          "rightEye": "25"
+        },
+        "axis": {
+          "leftEye": "76",
+          "rightEye": "40"
+        },
+        "sphere": {
+          "leftEye": "25",
+          "rightEye": "78"
+        },
+        "cylinder": {
+          "leftEye": "35",
+          "rightEye": "25"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "67",
+          "rightEye": "59"
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "esotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "cataract",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "ter convoco congregatio"
+          },
+          "k2": {
+            "leftEye": "provident atavus deporto",
+            "rightEye": "rem suasoria deludo"
+          },
+          "acd": {
+            "leftEye": "talio subiungo tenuis",
+            "rightEye": "est crustulum qui"
+          },
+          "axl": {
+            "leftEye": "eveniet appono cribro",
+            "rightEye": "talio subiungo tenuis"
+          },
+          "flatAxis": {
+            "leftEye": "ter convoco congregatio",
+            "rightEye": "atavus perferendis cauda"
+          },
+          "iolImplanted": {
+            "leftEye": "est crustulum qui",
+            "rightEye": "quos aetas tres"
+          },
+          "anyOtherDetails": {
+            "leftEye": "acidus suppono ad",
+            "rightEye": "ter convoco congregatio"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "quos aetas tres",
+            "rightEye": "atavus perferendis cauda"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "sch"
+          }
+        }
+      },
+      "clinicalNotes": "usque bonus minima",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/24",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 78,
+      "refractionCylinderOD": 25,
+      "refractionAxisOD": 40,
+      "refractionSphereOS": 25,
+      "refractionCylinderOS": 35,
+      "refractionAxisOS": 76,
+      "iopOD": 59,
+      "iopOS": 67,
+      "iopMethod": "goldmann",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "cataract"
+      },
+      "additionalNotes": "usque bonus minima",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:48:43.643Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T08:48:44.012Z",
+      "updatedAt": "2025-11-07T08:48:44.012Z"
+    },
+    {
+      "id": "cmhom630f002zlhnczng5opw1",
+      "patientVisitId": "cmhoj7puq001hlhncouhrcgix",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N10",
+          "rightEye": "N10",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/24",
+          "rightEye": "6/36",
+          "binocular": "6/12"
+        }
+      },
+      "refraction": {
+        "pd": "67",
+        "add": {
+          "leftEye": "59",
+          "rightEye": "25"
+        },
+        "axis": {
+          "leftEye": "76",
+          "rightEye": "40"
+        },
+        "sphere": {
+          "leftEye": "25",
+          "rightEye": "78"
+        },
+        "cylinder": {
+          "leftEye": "35",
+          "rightEye": "25"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "67",
+          "rightEye": "59"
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "esotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "cataract",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "ter convoco congregatio"
+          },
+          "k2": {
+            "leftEye": "provident atavus deporto",
+            "rightEye": "rem suasoria deludo"
+          },
+          "acd": {
+            "leftEye": "talio subiungo tenuis",
+            "rightEye": "est crustulum qui"
+          },
+          "axl": {
+            "leftEye": "eveniet appono cribro",
+            "rightEye": "talio subiungo tenuis"
+          },
+          "flatAxis": {
+            "leftEye": "ter convoco congregatio",
+            "rightEye": "atavus perferendis cauda"
+          },
+          "iolImplanted": {
+            "leftEye": "est crustulum qui",
+            "rightEye": "quos aetas tres"
+          },
+          "anyOtherDetails": {
+            "leftEye": "acidus suppono ad",
+            "rightEye": "ter convoco congregatio"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "quos aetas tres",
+            "rightEye": "atavus perferendis cauda"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "sch"
+          }
+        }
+      },
+      "clinicalNotes": "usque bonus minima",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        },
+        {
+          "id": 3,
+          "name": "Latex",
+          "reaction": "Contact dermatitis",
+          "severity": "Low"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/24",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 78,
+      "refractionCylinderOD": 25,
+      "refractionAxisOD": 40,
+      "refractionSphereOS": 25,
+      "refractionCylinderOS": 35,
+      "refractionAxisOS": 76,
+      "iopOD": 59,
+      "iopOS": 67,
+      "iopMethod": "goldmann",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "cataract"
+      },
+      "additionalNotes": "usque bonus minima",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:48:53.026Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T08:48:53.438Z",
+      "updatedAt": "2025-11-07T08:48:53.438Z"
+    },
+    {
+      "id": "cmhom6a9c0031lhncnomix6ey",
+      "patientVisitId": "cmhoj98n0002glhncp3xrjd9e",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N10",
+          "rightEye": "N10",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/24",
+          "rightEye": "6/36",
+          "binocular": "6/12"
+        }
+      },
+      "refraction": {
+        "pd": "67",
+        "add": {
+          "leftEye": "59",
+          "rightEye": "25"
+        },
+        "axis": {
+          "leftEye": "76",
+          "rightEye": "40"
+        },
+        "sphere": {
+          "leftEye": "25",
+          "rightEye": "78"
+        },
+        "cylinder": {
+          "leftEye": "35",
+          "rightEye": "25"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "67",
+          "rightEye": "59"
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "esotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "cataract",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "ter convoco congregatio"
+          },
+          "k2": {
+            "leftEye": "provident atavus deporto",
+            "rightEye": "rem suasoria deludo"
+          },
+          "acd": {
+            "leftEye": "talio subiungo tenuis",
+            "rightEye": "est crustulum qui"
+          },
+          "axl": {
+            "leftEye": "eveniet appono cribro",
+            "rightEye": "talio subiungo tenuis"
+          },
+          "flatAxis": {
+            "leftEye": "ter convoco congregatio",
+            "rightEye": "atavus perferendis cauda"
+          },
+          "iolImplanted": {
+            "leftEye": "est crustulum qui",
+            "rightEye": "quos aetas tres"
+          },
+          "anyOtherDetails": {
+            "leftEye": "acidus suppono ad",
+            "rightEye": "ter convoco congregatio"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "quos aetas tres",
+            "rightEye": "atavus perferendis cauda"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "sch"
+          }
+        }
+      },
+      "clinicalNotes": "usque bonus minima",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/24",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 78,
+      "refractionCylinderOD": 25,
+      "refractionAxisOD": 40,
+      "refractionSphereOS": 25,
+      "refractionCylinderOS": 35,
+      "refractionAxisOS": 76,
+      "iopOD": 59,
+      "iopOS": 67,
+      "iopMethod": "goldmann",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "cataract"
+      },
+      "additionalNotes": "usque bonus minima",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:49:02.450Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T08:49:02.832Z",
+      "updatedAt": "2025-11-07T08:49:02.832Z"
+    },
+    {
+      "id": "cmhom6eil0033lhnc8ofnwqtw",
+      "patientVisitId": "cmhoj9l0g002nlhncrw1bolsl",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N10",
+          "rightEye": "N10",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/24",
+          "rightEye": "6/36",
+          "binocular": "6/12"
+        }
+      },
+      "refraction": {
+        "pd": "67",
+        "add": {
+          "leftEye": "59",
+          "rightEye": "25"
+        },
+        "axis": {
+          "leftEye": "76",
+          "rightEye": "40"
+        },
+        "sphere": {
+          "leftEye": "25",
+          "rightEye": "78"
+        },
+        "cylinder": {
+          "leftEye": "35",
+          "rightEye": "25"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "67",
+          "rightEye": "59"
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "esotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "cataract",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "ter convoco congregatio"
+          },
+          "k2": {
+            "leftEye": "provident atavus deporto",
+            "rightEye": "rem suasoria deludo"
+          },
+          "acd": {
+            "leftEye": "talio subiungo tenuis",
+            "rightEye": "est crustulum qui"
+          },
+          "axl": {
+            "leftEye": "eveniet appono cribro",
+            "rightEye": "talio subiungo tenuis"
+          },
+          "flatAxis": {
+            "leftEye": "ter convoco congregatio",
+            "rightEye": "atavus perferendis cauda"
+          },
+          "iolImplanted": {
+            "leftEye": "est crustulum qui",
+            "rightEye": "quos aetas tres"
+          },
+          "anyOtherDetails": {
+            "leftEye": "acidus suppono ad",
+            "rightEye": "ter convoco congregatio"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "quos aetas tres",
+            "rightEye": "atavus perferendis cauda"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "sch"
+          }
+        }
+      },
+      "clinicalNotes": "usque bonus minima",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/24",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 78,
+      "refractionCylinderOD": 25,
+      "refractionAxisOD": 40,
+      "refractionSphereOS": 25,
+      "refractionCylinderOS": 35,
+      "refractionAxisOS": 76,
+      "iopOD": 59,
+      "iopOS": 67,
+      "iopMethod": "goldmann",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "cataract"
+      },
+      "additionalNotes": "usque bonus minima",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:49:08.002Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T08:49:08.349Z",
+      "updatedAt": "2025-11-07T08:49:08.349Z"
+    },
+    {
+      "id": "cmhom6rvu0035lhncn5yu50sk",
+      "patientVisitId": "cmhoj8ljg0022lhnc92z9yq75",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N10",
+          "rightEye": "N10",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/24",
+          "rightEye": "6/36",
+          "binocular": "6/12"
+        }
+      },
+      "refraction": {
+        "pd": "67",
+        "add": {
+          "leftEye": "59",
+          "rightEye": "25"
+        },
+        "axis": {
+          "leftEye": "76",
+          "rightEye": "40"
+        },
+        "sphere": {
+          "leftEye": "25",
+          "rightEye": "78"
+        },
+        "cylinder": {
+          "leftEye": "35",
+          "rightEye": "25"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "67",
+          "rightEye": "59"
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "esotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "cataract",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "tubineus contigo territo",
+            "rightEye": "aggero contra tondeo"
+          },
+          "k2": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "cumque vesica spes"
+          },
+          "acd": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "provident atavus deporto"
+          },
+          "axl": {
+            "leftEye": "aggero contra tondeo",
+            "rightEye": "aggero contra tondeo"
+          },
+          "flatAxis": {
+            "leftEye": "maiores cicuta blanditiis",
+            "rightEye": "admitto surgo tumultus"
+          },
+          "iolImplanted": {
+            "leftEye": "cumque vesica spes",
+            "rightEye": "alias copiose apparatus"
+          },
+          "anyOtherDetails": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "rem suasoria deludo"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "eveniet appono cribro",
+            "rightEye": "theatrum delectatio praesentium"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "sch"
+          }
+        }
+      },
+      "clinicalNotes": "tubineus contigo territo",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/24",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 78,
+      "refractionCylinderOD": 25,
+      "refractionAxisOD": 40,
+      "refractionSphereOS": 25,
+      "refractionCylinderOS": 35,
+      "refractionAxisOS": 76,
+      "iopOD": 59,
+      "iopOS": 67,
+      "iopMethod": "goldmann",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "cataract"
+      },
+      "additionalNotes": "tubineus contigo territo",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:49:25.219Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T08:49:25.672Z",
+      "updatedAt": "2025-11-07T08:49:25.672Z"
+    },
+    {
+      "id": "cmhom6xc50037lhnc5tnjgfv4",
+      "patientVisitId": "cmhoj8wrt0029lhncg0esis8v",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N10",
+          "rightEye": "N10",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/24",
+          "rightEye": "6/36",
+          "binocular": "6/12"
+        }
+      },
+      "refraction": {
+        "pd": "67",
+        "add": {
+          "leftEye": "59",
+          "rightEye": "25"
+        },
+        "axis": {
+          "leftEye": "76",
+          "rightEye": "40"
+        },
+        "sphere": {
+          "leftEye": "25",
+          "rightEye": "78"
+        },
+        "cylinder": {
+          "leftEye": "35",
+          "rightEye": "25"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "67",
+          "rightEye": "59"
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "esotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "cataract",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "tubineus contigo territo",
+            "rightEye": "aggero contra tondeo"
+          },
+          "k2": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "cumque vesica spes"
+          },
+          "acd": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "provident atavus deporto"
+          },
+          "axl": {
+            "leftEye": "aggero contra tondeo",
+            "rightEye": "aggero contra tondeo"
+          },
+          "flatAxis": {
+            "leftEye": "maiores cicuta blanditiis",
+            "rightEye": "admitto surgo tumultus"
+          },
+          "iolImplanted": {
+            "leftEye": "cumque vesica spes",
+            "rightEye": "alias copiose apparatus"
+          },
+          "anyOtherDetails": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "rem suasoria deludo"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "eveniet appono cribro",
+            "rightEye": "theatrum delectatio praesentium"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "sch"
+          }
+        }
+      },
+      "clinicalNotes": "tubineus contigo territo",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        },
+        {
+          "id": 2,
+          "name": "Sulfa drugs",
+          "reaction": "Skin irritation",
+          "severity": "Medium"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/24",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 78,
+      "refractionCylinderOD": 25,
+      "refractionAxisOD": 40,
+      "refractionSphereOS": 25,
+      "refractionCylinderOS": 35,
+      "refractionAxisOS": 76,
+      "iopOD": 59,
+      "iopOS": 67,
+      "iopMethod": "goldmann",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "cataract"
+      },
+      "additionalNotes": "tubineus contigo territo",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:49:32.395Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T08:49:32.741Z",
+      "updatedAt": "2025-11-07T08:49:32.741Z"
+    },
+    {
+      "id": "cmhom72ht0039lhncnjv5bjmv",
+      "patientVisitId": "cmhojug7x00047kmcskgh0dzh",
+      "optometristId": "cmhn157ow00007km0qay4vn71",
+      "visualAcuity": {
+        "near": {
+          "leftEye": "N10",
+          "rightEye": "N10",
+          "binocular": "N12"
+        },
+        "aided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "unaided": {
+          "leftEye": "",
+          "rightEye": "",
+          "binocular": ""
+        },
+        "distance": {
+          "leftEye": "6/24",
+          "rightEye": "6/36",
+          "binocular": "6/12"
+        }
+      },
+      "refraction": {
+        "pd": "67",
+        "add": {
+          "leftEye": "59",
+          "rightEye": "25"
+        },
+        "axis": {
+          "leftEye": "76",
+          "rightEye": "40"
+        },
+        "sphere": {
+          "leftEye": "25",
+          "rightEye": "78"
+        },
+        "cylinder": {
+          "leftEye": "35",
+          "rightEye": "25"
+        }
+      },
+      "tonometry": {
+        "iop": {
+          "leftEye": "67",
+          "rightEye": "59"
+        },
+        "time": "",
+        "method": "goldmann"
+      },
+      "additionalTests": {
+        "coverTest": "esotropia",
+        "colorVision": "blue-yellow-deficiency",
+        "eyeAlignment": "normal",
+        "pupilReaction": "fixed",
+        "anteriorSegment": "cataract",
+        "extraocularMovements": "restricted"
+      },
+      "clinicalDetails": {
+        "preOpParams": {
+          "k1": {
+            "leftEye": "tubineus contigo territo",
+            "rightEye": "aggero contra tondeo"
+          },
+          "k2": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "cumque vesica spes"
+          },
+          "acd": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "provident atavus deporto"
+          },
+          "axl": {
+            "leftEye": "aggero contra tondeo",
+            "rightEye": "aggero contra tondeo"
+          },
+          "flatAxis": {
+            "leftEye": "maiores cicuta blanditiis",
+            "rightEye": "admitto surgo tumultus"
+          },
+          "iolImplanted": {
+            "leftEye": "cumque vesica spes",
+            "rightEye": "alias copiose apparatus"
+          },
+          "anyOtherDetails": {
+            "leftEye": "rem suasoria deludo",
+            "rightEye": "rem suasoria deludo"
+          },
+          "iolPowerPlanned": {
+            "leftEye": "eveniet appono cribro",
+            "rightEye": "theatrum delectatio praesentium"
+          }
+        },
+        "slitLampFindings": {
+          "lens": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "cornea": {
+            "leftEye": "clear",
+            "rightEye": "hazy"
+          },
+          "eyelids": {
+            "leftEye": "normal",
+            "rightEye": "abnormal"
+          },
+          "conjunctiva": {
+            "leftEye": "normal",
+            "rightEye": "sch"
+          }
+        }
+      },
+      "clinicalNotes": "tubineus contigo territo",
+      "preliminaryDiagnosis": "glaucoma-suspect",
+      "assignedDoctor": null,
+      "urgencyLevel": null,
+      "additionalOrders": [],
+      "knownAllergies": [
+        {
+          "id": 1,
+          "name": "Penicillin",
+          "reaction": "Rash, difficulty breathing",
+          "severity": "High"
+        }
+      ],
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/24",
+      "bcvaOD": "",
+      "bcvaOS": "",
+      "refractionSphereOD": 78,
+      "refractionCylinderOD": 25,
+      "refractionAxisOD": 40,
+      "refractionSphereOS": 25,
+      "refractionCylinderOS": 35,
+      "refractionAxisOS": 76,
+      "iopOD": 59,
+      "iopOS": 67,
+      "iopMethod": "goldmann",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": {
+        "findings": "cataract"
+      },
+      "additionalNotes": "tubineus contigo territo",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:49:39.027Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "createdAt": "2025-11-07T08:49:39.425Z",
+      "updatedAt": "2025-11-07T08:49:39.425Z"
+    }
+  ],
+  "ophthalmologistExaminations": [
+    {
+      "id": "cmhn9jbcu0001lhconh88ntr3",
+      "patientVisitId": "cmhn3w3tz000wlhg4mwx6yteg",
+      "doctorId": "cmhn157vr00037km0gv0ixhzn",
+      "examinationSequence": 1,
+      "visualAcuity": "{\"distance\":{\"rightEye\":\"6/36\",\"leftEye\":\"6/36\",\"binocular\":\"6/9\"},\"near\":{\"rightEye\":\"N12\",\"leftEye\":\"N12\",\"binocular\":\"N12\"}}",
+      "refraction": "{\"sphere\":{\"rightEye\":24,\"leftEye\":32},\"cylinder\":{\"rightEye\":234,\"leftEye\":32},\"axis\":{\"rightEye\":31,\"leftEye\":134},\"add\":{\"rightEye\":null,\"leftEye\":null},\"pd\":null}",
+      "tonometry": "{\"iop\":{\"rightEye\":43,\"leftEye\":13},\"method\":\"perkins\"}",
+      "additionalTests": "{\"pupilReaction\":\"sluggish\",\"colorVision\":\"red-green-deficiency\",\"eyeAlignment\":\"normal\",\"extraocularMovements\":\"full\",\"coverTest\":\"orthophoric\"}",
+      "clinicalDetails": "{\"notes\":\"depopulo umbra aegrotatio\",\"diagnosis\":\"diabetic-retinopathy\"}",
+      "clinicalNotes": "depopulo umbra aegrotatio",
+      "preliminaryDiagnosis": "diabetic-retinopathy",
+      "assignedDoctor": "cmhn157vr00037km0gv0ixhzn",
+      "urgencyLevel": null,
+      "additionalOrders": "{\"oct\":false,\"visualField\":true,\"fundusPhotography\":true,\"angiography\":true,\"other\":\"defetiscor villa valetudo\"}",
+      "knownAllergies": null,
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "N12",
+      "bcvaOS": "N12",
+      "refractionSphereOD": 24,
+      "refractionCylinderOD": 234,
+      "refractionAxisOD": 31,
+      "refractionSphereOS": 32,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 134,
+      "iopOD": 43,
+      "iopOS": 13,
+      "iopMethod": "perkins",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "sluggish",
+      "eyeAlignment": "normal",
+      "anteriorSegment": "{\"eyelids\":{\"rightEye\":\"normal\",\"leftEye\":\"normal\"},\"conjunctiva\":{\"rightEye\":\"mass\",\"leftEye\":\"normal\"},\"cornea\":{\"rightEye\":\"hazy\",\"leftEye\":\"clear\"},\"lens\":{\"rightEye\":\"normal\",\"leftEye\":\"normal\"}}",
+      "additionalNotes": "tepesco aperiam temptatio",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-06T10:09:56.372Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "distanceOD": "6/36",
+      "distanceOS": "6/36",
+      "distanceBinocular": "6/9",
+      "nearOD": "N12",
+      "nearOS": "N12",
+      "nearBinocular": "N12",
+      "refractionAddOD": null,
+      "refractionAddOS": null,
+      "refractionPD": null,
+      "extraocularMovements": "full",
+      "coverTest": "orthophoric",
+      "k1OD": "certus appello color",
+      "k1OS": "defessus caritas suus",
+      "k2OD": "constans antea valens",
+      "k2OS": "crux ancilla tutamen",
+      "flatAxisOD": "crux ancilla tutamen",
+      "flatAxisOS": "asporto adfectus colo",
+      "acdOD": "crux ancilla tutamen",
+      "acdOS": "occaecati commodo velociter",
+      "axlOD": "certus appello color",
+      "axlOS": "voluptatum aspicio vulgus",
+      "iolPowerPlannedOD": "sol capillus nulla",
+      "iolPowerPlannedOS": "certus appello color",
+      "iolImplantedOD": "video virgo deludo",
+      "iolImplantedOS": "video virgo deludo",
+      "anyOtherDetailsOD": "peior somnus suus",
+      "anyOtherDetailsOS": "cunabula tego sufficio",
+      "eyelidsOD": "normal",
+      "eyelidsOS": "normal",
+      "conjunctivaOD": "mass",
+      "conjunctivaOS": "normal",
+      "corneaOD": "hazy",
+      "corneaOS": "clear",
+      "lensOD": "normal",
+      "lensOS": "normal",
+      "examinationNotes": "tepesco aperiam temptatio",
+      "additionalTestsOrdered": "{\"oct\":false,\"visualField\":true,\"fundusPhotography\":true,\"angiography\":true,\"other\":\"defetiscor villa valetudo\"}",
+      "followUpPeriod": "3_months",
+      "followUpDays": null,
+      "slitLampFindings": null,
+      "fundoscopyFindings": null,
+      "visualFieldResults": null,
+      "octFindings": null,
+      "fundusPhotography": null,
+      "angiographyFindings": null,
+      "ultrasonography": null,
+      "clinicalImpressions": null,
+      "assessment": null,
+      "treatmentPlan": null,
+      "surgeryRecommended": true,
+      "surgeryType": null,
+      "followUpRequired": true,
+      "followUpDate": "2026-02-04T10:05:29.326Z",
+      "followUpInstructions": null,
+      "createdAt": "2025-11-06T10:07:29.596Z",
+      "updatedAt": "2025-11-06T10:09:56.376Z"
+    },
+    {
+      "id": "cmhof1m310006lhncdt72e82l",
+      "patientVisitId": "cmhn3qvo40004lhg4rhwjayd3",
+      "doctorId": "cmhn157vr00037km0gv0ixhzn",
+      "examinationSequence": 1,
+      "visualAcuity": "{\"distance\":{\"rightEye\":\"6/36\",\"leftEye\":\"6/36\",\"binocular\":\"6/9\"},\"near\":{\"rightEye\":\"N12\",\"leftEye\":\"N12\",\"binocular\":\"N12\"}}",
+      "refraction": "{\"sphere\":{\"rightEye\":24,\"leftEye\":32},\"cylinder\":{\"rightEye\":234,\"leftEye\":32},\"axis\":{\"rightEye\":31,\"leftEye\":134},\"add\":{\"rightEye\":null,\"leftEye\":null},\"pd\":null}",
+      "tonometry": "{\"iop\":{\"rightEye\":32,\"leftEye\":21},\"method\":\"nctonometry\"}",
+      "additionalTests": "{\"pupilReaction\":\"sluggish\",\"colorVision\":\"red-green-deficiency\",\"eyeAlignment\":\"normal\",\"extraocularMovements\":\"full\",\"coverTest\":\"orthophoric\"}",
+      "clinicalDetails": "{\"notes\":\"trepide incidunt subiungo\",\"diagnosis\":\"diabetic-retinopathy\"}",
+      "clinicalNotes": "trepide incidunt subiungo",
+      "preliminaryDiagnosis": "diabetic-retinopathy",
+      "assignedDoctor": "cmhn157vr00037km0gv0ixhzn",
+      "urgencyLevel": null,
+      "additionalOrders": "{\"oct\":false,\"visualField\":true,\"fundusPhotography\":true,\"angiography\":true,\"other\":\"\"}",
+      "knownAllergies": null,
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "N12",
+      "bcvaOS": "N12",
+      "refractionSphereOD": 24,
+      "refractionCylinderOD": 234,
+      "refractionAxisOD": 31,
+      "refractionSphereOS": 32,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 134,
+      "iopOD": 32,
+      "iopOS": 21,
+      "iopMethod": "nctonometry",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "sluggish",
+      "eyeAlignment": "normal",
+      "anteriorSegment": "{\"eyelids\":{\"rightEye\":\"normal\",\"leftEye\":\"normal\"},\"conjunctiva\":{\"rightEye\":\"congestion\",\"leftEye\":\"normal\"},\"cornea\":{\"rightEye\":\"clear\",\"leftEye\":\"clear\"},\"lens\":{\"rightEye\":\"abnormal\",\"leftEye\":\"normal\"}}",
+      "additionalNotes": "urbanus victoria venia",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T05:29:27.563Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "distanceOD": "6/36",
+      "distanceOS": "6/36",
+      "distanceBinocular": "6/9",
+      "nearOD": "N12",
+      "nearOS": "N12",
+      "nearBinocular": "N12",
+      "refractionAddOD": null,
+      "refractionAddOS": null,
+      "refractionPD": null,
+      "extraocularMovements": "full",
+      "coverTest": "orthophoric",
+      "k1OD": "1",
+      "k1OS": "3",
+      "k2OD": "demens canis utpote",
+      "k2OS": "cerno suggero creator",
+      "flatAxisOD": "cerno suggero creator",
+      "flatAxisOS": "aut confugo culpa",
+      "acdOD": "supplanto auditor animus",
+      "acdOS": "ex theca vita",
+      "axlOD": "demens canis utpote",
+      "axlOS": "tergeo urbs curvo",
+      "iolPowerPlannedOD": "aggredior cupressus aveho",
+      "iolPowerPlannedOS": "supplanto auditor animus",
+      "iolImplantedOD": "creber convoco tui",
+      "iolImplantedOS": "supplanto auditor animus",
+      "anyOtherDetailsOD": "tergeo urbs curvo",
+      "anyOtherDetailsOS": "tergeo urbs curvo",
+      "eyelidsOD": "normal",
+      "eyelidsOS": "normal",
+      "conjunctivaOD": "congestion",
+      "conjunctivaOS": "normal",
+      "corneaOD": "clear",
+      "corneaOS": "clear",
+      "lensOD": "abnormal",
+      "lensOS": "normal",
+      "examinationNotes": "urbanus victoria venia",
+      "additionalTestsOrdered": "{\"oct\":false,\"visualField\":true,\"fundusPhotography\":true,\"angiography\":true,\"other\":\"\"}",
+      "followUpPeriod": "1_month",
+      "followUpDays": null,
+      "slitLampFindings": null,
+      "fundoscopyFindings": null,
+      "visualFieldResults": null,
+      "octFindings": null,
+      "fundusPhotography": null,
+      "angiographyFindings": null,
+      "ultrasonography": null,
+      "clinicalImpressions": null,
+      "assessment": null,
+      "treatmentPlan": null,
+      "surgeryRecommended": true,
+      "surgeryType": null,
+      "followUpRequired": true,
+      "followUpDate": "2025-12-07T05:29:23.785Z",
+      "followUpInstructions": null,
+      "createdAt": "2025-11-07T05:29:27.565Z",
+      "updatedAt": "2025-11-07T05:29:27.565Z"
+    },
+    {
+      "id": "cmhof2me90008lhncumps44or",
+      "patientVisitId": "cmhn3vehd000ilhg4j7ozpz3m",
+      "doctorId": "cmhn157vr00037km0gv0ixhzn",
+      "examinationSequence": 1,
+      "visualAcuity": "{\"distance\":{\"rightEye\":\"6/36\",\"leftEye\":\"6/36\",\"binocular\":\"6/9\"},\"near\":{\"rightEye\":\"N12\",\"leftEye\":\"N12\",\"binocular\":\"N12\"}}",
+      "refraction": "{\"sphere\":{\"rightEye\":22,\"leftEye\":21},\"cylinder\":{\"rightEye\":50,\"leftEye\":58},\"axis\":{\"rightEye\":71,\"leftEye\":21},\"add\":{\"rightEye\":4,\"leftEye\":21},\"pd\":25}",
+      "tonometry": "{\"iop\":{\"rightEye\":39,\"leftEye\":48},\"method\":\"nctonometry\"}",
+      "additionalTests": "{\"pupilReaction\":\"fixed\",\"colorVision\":\"red-green-deficiency\",\"eyeAlignment\":\"normal\",\"extraocularMovements\":\"full\",\"coverTest\":\"orthophoric\"}",
+      "clinicalDetails": "{\"notes\":\"nulla sumptus sto\",\"diagnosis\":\"normal\"}",
+      "clinicalNotes": "nulla sumptus sto",
+      "preliminaryDiagnosis": "normal",
+      "assignedDoctor": "cmhn157vr00037km0gv0ixhzn",
+      "urgencyLevel": null,
+      "additionalOrders": "{\"oct\":false,\"visualField\":false,\"fundusPhotography\":false,\"angiography\":false,\"other\":\"\"}",
+      "knownAllergies": null,
+      "ucvaOD": "6/36",
+      "ucvaOS": "6/36",
+      "bcvaOD": "N12",
+      "bcvaOS": "N12",
+      "refractionSphereOD": 22,
+      "refractionCylinderOD": 50,
+      "refractionAxisOD": 71,
+      "refractionSphereOS": 21,
+      "refractionCylinderOS": 58,
+      "refractionAxisOS": 21,
+      "iopOD": 39,
+      "iopOS": 48,
+      "iopMethod": "nctonometry",
+      "colorVision": "red-green-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": "{\"eyelids\":{\"rightEye\":\"normal\",\"leftEye\":\"normal\"},\"conjunctiva\":{\"rightEye\":\"mass\",\"leftEye\":\"normal\"},\"cornea\":{\"rightEye\":\"hazy\",\"leftEye\":\"clear\"},\"lens\":{\"rightEye\":\"normal\",\"leftEye\":\"normal\"}}",
+      "additionalNotes": "perferendis appono spargo",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T05:30:14.622Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "distanceOD": "6/36",
+      "distanceOS": "6/36",
+      "distanceBinocular": "6/9",
+      "nearOD": "N12",
+      "nearOS": "N12",
+      "nearBinocular": "N12",
+      "refractionAddOD": 4,
+      "refractionAddOS": 21,
+      "refractionPD": 25,
+      "extraocularMovements": "full",
+      "coverTest": "orthophoric",
+      "k1OD": "nulla sumptus sto",
+      "k1OS": "omnis strenuus sortitus",
+      "k2OD": "acquiro veniam caecus",
+      "k2OS": "quidem textilis deorsum",
+      "flatAxisOD": "omnis strenuus sortitus",
+      "flatAxisOS": "testimonium velit copia",
+      "acdOD": "turpis denique molestias",
+      "acdOS": "nulla sumptus sto",
+      "axlOD": "aiunt temperantia attero",
+      "axlOS": "vivo infit defluo",
+      "iolPowerPlannedOD": "omnis strenuus sortitus",
+      "iolPowerPlannedOS": "caelum ubi angustus",
+      "iolImplantedOD": "quidem textilis deorsum",
+      "iolImplantedOS": "quidem textilis deorsum",
+      "anyOtherDetailsOD": "maiores vero tremo",
+      "anyOtherDetailsOS": "comes comprehendo acceptus",
+      "eyelidsOD": "normal",
+      "eyelidsOS": "normal",
+      "conjunctivaOD": "mass",
+      "conjunctivaOS": "normal",
+      "corneaOD": "hazy",
+      "corneaOS": "clear",
+      "lensOD": "normal",
+      "lensOS": "normal",
+      "examinationNotes": "perferendis appono spargo",
+      "additionalTestsOrdered": "{\"oct\":false,\"visualField\":false,\"fundusPhotography\":false,\"angiography\":false,\"other\":\"\"}",
+      "followUpPeriod": null,
+      "followUpDays": null,
+      "slitLampFindings": null,
+      "fundoscopyFindings": null,
+      "visualFieldResults": null,
+      "octFindings": null,
+      "fundusPhotography": null,
+      "angiographyFindings": null,
+      "ultrasonography": null,
+      "clinicalImpressions": null,
+      "assessment": null,
+      "treatmentPlan": null,
+      "surgeryRecommended": false,
+      "surgeryType": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "followUpInstructions": null,
+      "createdAt": "2025-11-07T05:30:14.625Z",
+      "updatedAt": "2025-11-07T05:30:14.625Z"
+    },
+    {
+      "id": "cmhokuksc002rlhncl43pcj1o",
+      "patientVisitId": "cmhogxq1i000clhncogssvcj9",
+      "doctorId": "cmhn157vr00037km0gv0ixhzn",
+      "examinationSequence": 1,
+      "visualAcuity": "{\"distance\":{\"rightEye\":\"CF\",\"leftEye\":\"CF\",\"binocular\":\"6/6\"},\"near\":{\"rightEye\":\"N14\",\"leftEye\":\"N14\",\"binocular\":\"N14\"}}",
+      "refraction": "{\"sphere\":{\"rightEye\":32,\"leftEye\":232},\"cylinder\":{\"rightEye\":323,\"leftEye\":32},\"axis\":{\"rightEye\":32,\"leftEye\":3},\"add\":{\"rightEye\":null,\"leftEye\":null},\"pd\":null}",
+      "tonometry": "{\"iop\":{\"rightEye\":43,\"leftEye\":43},\"method\":\"nctonometry\"}",
+      "additionalTests": "{\"pupilReaction\":\"fixed\",\"colorVision\":\"blue-yellow-deficiency\",\"eyeAlignment\":\"normal\",\"extraocularMovements\":\"full\",\"coverTest\":\"orthophoric\"}",
+      "clinicalDetails": "{\"notes\":\"asfsafeasfdddddddasssssssssssss\",\"diagnosis\":\"refractive-error\"}",
+      "clinicalNotes": "asfsafeasfdddddddasssssssssssss",
+      "preliminaryDiagnosis": "refractive-error",
+      "assignedDoctor": "cmhn157vr00037km0gv0ixhzn",
+      "urgencyLevel": null,
+      "additionalOrders": "{\"oct\":false,\"visualField\":true,\"fundusPhotography\":true,\"angiography\":true,\"other\":\"\"}",
+      "knownAllergies": null,
+      "ucvaOD": "CF",
+      "ucvaOS": "CF",
+      "bcvaOD": "N14",
+      "bcvaOS": "N14",
+      "refractionSphereOD": 32,
+      "refractionCylinderOD": 323,
+      "refractionAxisOD": 32,
+      "refractionSphereOS": 232,
+      "refractionCylinderOS": 32,
+      "refractionAxisOS": 3,
+      "iopOD": 43,
+      "iopOS": 43,
+      "iopMethod": "nctonometry",
+      "colorVision": "blue-yellow-deficiency",
+      "pupilReaction": "fixed",
+      "eyeAlignment": "normal",
+      "anteriorSegment": "{\"eyelids\":{\"rightEye\":\"abnormal\",\"leftEye\":\"normal\"},\"conjunctiva\":{\"rightEye\":\"congestion\",\"leftEye\":\"normal\"},\"cornea\":{\"rightEye\":\"hazy\",\"leftEye\":\"clear\"},\"lens\":{\"rightEye\":\"abnormal\",\"leftEye\":\"normal\"}}",
+      "additionalNotes": "asfsdfsdfsdfsdf",
+      "proceedToDoctor": true,
+      "requiresDilation": false,
+      "additionalTestsLegacy": null,
+      "examinationStatus": "completed",
+      "completedAt": "2025-11-07T08:11:56.983Z",
+      "receptionist2Reviewed": false,
+      "receptionist2ReviewedAt": null,
+      "receptionist2ReviewedBy": null,
+      "receptionist2Notes": null,
+      "distanceOD": "CF",
+      "distanceOS": "CF",
+      "distanceBinocular": "6/6",
+      "nearOD": "N14",
+      "nearOS": "N14",
+      "nearBinocular": "N14",
+      "refractionAddOD": null,
+      "refractionAddOS": null,
+      "refractionPD": null,
+      "extraocularMovements": "full",
+      "coverTest": "orthophoric",
+      "k1OD": "34",
+      "k1OS": "343",
+      "k2OD": "33",
+      "k2OS": "33",
+      "flatAxisOD": "33",
+      "flatAxisOS": "33",
+      "acdOD": "33",
+      "acdOS": "333",
+      "axlOD": "33",
+      "axlOS": "3",
+      "iolPowerPlannedOD": "333",
+      "iolPowerPlannedOS": "333",
+      "iolImplantedOD": "33",
+      "iolImplantedOS": "33",
+      "anyOtherDetailsOD": "ggsfdddddd",
+      "anyOtherDetailsOS": "dsfggggggggg",
+      "eyelidsOD": "abnormal",
+      "eyelidsOS": "normal",
+      "conjunctivaOD": "congestion",
+      "conjunctivaOS": "normal",
+      "corneaOD": "hazy",
+      "corneaOS": "clear",
+      "lensOD": "abnormal",
+      "lensOS": "normal",
+      "examinationNotes": "asfsdfsdfsdfsdf",
+      "additionalTestsOrdered": "{\"oct\":false,\"visualField\":true,\"fundusPhotography\":true,\"angiography\":true,\"other\":\"\"}",
+      "followUpPeriod": null,
+      "followUpDays": null,
+      "slitLampFindings": null,
+      "fundoscopyFindings": null,
+      "visualFieldResults": null,
+      "octFindings": null,
+      "fundusPhotography": null,
+      "angiographyFindings": null,
+      "ultrasonography": null,
+      "clinicalImpressions": null,
+      "assessment": null,
+      "treatmentPlan": null,
+      "surgeryRecommended": false,
+      "surgeryType": null,
+      "followUpRequired": false,
+      "followUpDate": null,
+      "followUpInstructions": null,
+      "createdAt": "2025-11-07T08:11:56.986Z",
+      "updatedAt": "2025-11-07T08:11:56.986Z"
+    }
+  ],
+  "bills": [],
+  "prescriptions": [
+    {
+      "id": "cmhn9ggtf001blhg4refz0gkf",
+      "prescriptionNumber": "RX-20251106-0001",
+      "patientVisitId": "cmhn3w3tz000wlhg4mwx6yteg",
+      "examinationId": null,
+      "doctorId": "cmhn157vr00037km0gv0ixhzn",
+      "prescriptionDate": "2025-11-06T10:05:16.707Z",
+      "validTill": null,
+      "generalInstructions": "amicitia vomica acer",
+      "followUpInstructions": "arbustum sol deleniti",
+      "status": "active",
+      "createdAt": "2025-11-06T10:05:16.707Z",
+      "updatedAt": "2025-11-06T10:05:16.707Z"
+    },
+    {
+      "id": "cmhof05990001lhnc63ckcdiq",
+      "prescriptionNumber": "RX-20251107-0001",
+      "patientVisitId": "cmhn3vquf000plhg4vabz6hb7",
+      "examinationId": null,
+      "doctorId": "cmhn157vr00037km0gv0ixhzn",
+      "prescriptionDate": "2025-11-07T05:28:19.100Z",
+      "validTill": null,
+      "generalInstructions": "ter delego explicabo",
+      "followUpInstructions": "cotidie curia supra",
+      "status": "active",
+      "createdAt": "2025-11-07T05:28:19.100Z",
+      "updatedAt": "2025-11-07T05:28:19.100Z"
+    },
+    {
+      "id": "cmhokunnd002tlhnch7gjyhle",
+      "prescriptionNumber": "RX-20251107-0002",
+      "patientVisitId": "cmhogxq1i000clhncogssvcj9",
+      "examinationId": null,
+      "doctorId": "cmhn157vr00037km0gv0ixhzn",
+      "prescriptionDate": "2025-11-07T08:12:00.697Z",
+      "validTill": null,
+      "generalInstructions": "sadfsafd",
+      "followUpInstructions": "sdfasdfsdf",
+      "status": "active",
+      "createdAt": "2025-11-07T08:12:00.697Z",
+      "updatedAt": "2025-11-07T08:12:00.697Z"
+    }
+  ],
+  "medicines": [
+    {
+      "id": "cmhn9djnz001xlhcwxpqzkn6l",
+      "code": "TIM001",
+      "name": "Timolol 0.5% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9d9t00007lhcwfvp9uw7s",
+      "drugGroupId": "cmhn9dej90011lhcw8ae4l9un",
+      "dosageScheduleId": "cmhn9di28001ilhcwlngclxcx",
+      "dosage": "1 drop",
+      "information": "Used for glaucoma treatment. Reduces intraocular pressure.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:00.431Z",
+      "updatedAt": "2025-11-06T10:03:00.431Z"
+    },
+    {
+      "id": "cmhn9dklc001zlhcw3thspdcq",
+      "code": "LAT001",
+      "name": "Latanoprost 0.005% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9da2p0008lhcw0zzde5pt",
+      "drugGroupId": "cmhn9del60012lhcw125gm9tb",
+      "dosageScheduleId": "cmhn9dhkx001hlhcwnuygpqbh",
+      "dosage": "1 drop",
+      "information": "First-line treatment for glaucoma. Apply at bedtime.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:01.632Z",
+      "updatedAt": "2025-11-06T10:03:01.632Z"
+    },
+    {
+      "id": "cmhn9dlid0021lhcw5i2tab2v",
+      "code": "BRIM001",
+      "name": "Brimonidine 0.2% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9daho0009lhcwjszi539f",
+      "drugGroupId": "cmhn9dfgv0013lhcwv0scw3iy",
+      "dosageScheduleId": "cmhn9di28001ilhcwlngclxcx",
+      "dosage": "1 drop",
+      "information": "Reduces IOP by decreasing aqueous humor production.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:02.821Z",
+      "updatedAt": "2025-11-06T10:03:02.821Z"
+    },
+    {
+      "id": "cmhn9dlin0023lhcwr5tfzftw",
+      "code": "DORZ001",
+      "name": "Dorzolamide 2% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9daqi000alhcwck0ut742",
+      "drugGroupId": "cmhn9dfhs0014lhcwmpw9teh6",
+      "dosageScheduleId": "cmhn9diaj001jlhcwejbzfkuw",
+      "dosage": "1 drop",
+      "information": "Reduces IOP. Can be used as adjunct therapy.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:02.831Z",
+      "updatedAt": "2025-11-06T10:03:02.831Z"
+    },
+    {
+      "id": "cmhn9dlj30025lhcwzpiqa73c",
+      "code": "TROP001",
+      "name": "Tropicamide 1% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9db9m000elhcwutl81gr9",
+      "drugGroupId": "cmhn9dg4y0015lhcwofuw6neh",
+      "dosageScheduleId": "cmhn9divw001plhcwh724tbgm",
+      "dosage": "1 drop",
+      "information": "Short-acting mydriatic for fundus examination.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:02.847Z",
+      "updatedAt": "2025-11-06T10:03:02.847Z"
+    },
+    {
+      "id": "cmhn9dsyn0027lhcwfv06ystx",
+      "code": "PHEN001",
+      "name": "Phenylephrine 2.5% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dbap000flhcwglzyne9t",
+      "drugGroupId": "cmhn9dg4y0015lhcwofuw6neh",
+      "dosageScheduleId": "cmhn9divw001plhcwh724tbgm",
+      "dosage": "1 drop",
+      "information": "Mydriatic agent for pupil dilation.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:12.479Z",
+      "updatedAt": "2025-11-06T10:03:12.479Z"
+    },
+    {
+      "id": "cmhn9dsyx0029lhcwuz6q9yr0",
+      "code": "CYCLO001",
+      "name": "Cyclopentolate 1% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dbbn000glhcwtjj6ny3m",
+      "drugGroupId": "cmhn9dg620016lhcw1jtfklx9",
+      "dosageScheduleId": "cmhn9divw001plhcwh724tbgm",
+      "dosage": "1 drop",
+      "information": "Cycloplegic refraction and pupil dilation.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:12.490Z",
+      "updatedAt": "2025-11-06T10:03:12.490Z"
+    },
+    {
+      "id": "cmhn9dt6i002blhcw0jvu0kdh",
+      "code": "PRED001",
+      "name": "Prednisolone 1% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dbtc000jlhcw5jxnw20s",
+      "drugGroupId": "cmhn9dg720017lhcw699euzfj",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "Anti-inflammatory. Monitor IOP during use.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:12.762Z",
+      "updatedAt": "2025-11-06T10:03:12.762Z"
+    },
+    {
+      "id": "cmhn9dtdz002dlhcwjzjh5tp6",
+      "code": "DEX001",
+      "name": "Dexamethasone 0.1% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dc7q000klhcw8k673ay2",
+      "drugGroupId": "cmhn9dg720017lhcw699euzfj",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "Potent corticosteroid for inflammation.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:13.031Z",
+      "updatedAt": "2025-11-06T10:03:13.031Z"
+    },
+    {
+      "id": "cmhn9dtea002flhcwqk1pqh7z",
+      "code": "MOXI001",
+      "name": "Moxifloxacin 0.5% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dcqo000nlhcw55ijc000",
+      "drugGroupId": "cmhn9dg7z0018lhcwkgb9kisr",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "Broad-spectrum antibiotic for bacterial infections.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:13.042Z",
+      "updatedAt": "2025-11-06T10:03:13.042Z"
+    },
+    {
+      "id": "cmhn9dteo002hlhcwh0ye0pyg",
+      "code": "GATI001",
+      "name": "Gatifloxacin 0.3% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dcrm000olhcwk9302x6z",
+      "drugGroupId": "cmhn9dg7z0018lhcwkgb9kisr",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "Fluoroquinolone antibiotic for eye infections.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:13.056Z",
+      "updatedAt": "2025-11-06T10:03:13.056Z"
+    },
+    {
+      "id": "cmhn9dtex002jlhcwrtygxpc9",
+      "code": "OFLO001",
+      "name": "Ofloxacin 0.3% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dczq000plhcwrrwytfk0",
+      "drugGroupId": "cmhn9dg7z0018lhcwkgb9kisr",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "Antibiotic for conjunctivitis and corneal ulcers.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:13.065Z",
+      "updatedAt": "2025-11-06T10:03:13.065Z"
+    },
+    {
+      "id": "cmhn9dtff002llhcwu244nyli",
+      "code": "TOBRA001",
+      "name": "Tobramycin 0.3% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dd90000rlhcwu71v11sv",
+      "drugGroupId": "cmhn9dg7z0018lhcwkgb9kisr",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "Aminoglycoside antibiotic for bacterial infections.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:13.083Z",
+      "updatedAt": "2025-11-06T10:03:13.083Z"
+    },
+    {
+      "id": "cmhn9dtfq002nlhcwlacauto4",
+      "code": "KETO001",
+      "name": "Ketorolac 0.5% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9ddjj000ulhcw54kwo00d",
+      "drugGroupId": "cmhn9dgev0019lhcwr8oosokz",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "NSAID for pain and inflammation post-surgery.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:13.094Z",
+      "updatedAt": "2025-11-06T10:03:13.094Z"
+    },
+    {
+      "id": "cmhn9dtnf002plhcwds4tb3wi",
+      "code": "DICLO001",
+      "name": "Diclofenac 0.1% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9ddkf000vlhcwf5yy373n",
+      "drugGroupId": "cmhn9dgev0019lhcwr8oosokz",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "NSAID for post-operative inflammation.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:13.371Z",
+      "updatedAt": "2025-11-06T10:03:13.371Z"
+    },
+    {
+      "id": "cmhn9duko002rlhcwsd1k8v9f",
+      "code": "CMC001",
+      "name": "Carboxymethylcellulose 0.5% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9ddt8000xlhcwpxtnqc8t",
+      "drugGroupId": "cmhn9dh19001alhcw4ldi3wk3",
+      "dosageScheduleId": "cmhn9divw001plhcwh724tbgm",
+      "dosage": "1-2 drops",
+      "information": "Lubricant for dry eye syndrome.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:14.567Z",
+      "updatedAt": "2025-11-06T10:03:14.567Z"
+    },
+    {
+      "id": "cmhn9dusi002tlhcwohlgtszw",
+      "code": "HYPR001",
+      "name": "Hypromellose 0.3% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9ddu6000ylhcwlksnhrgp",
+      "drugGroupId": "cmhn9dh19001alhcw4ldi3wk3",
+      "dosageScheduleId": "cmhn9divw001plhcwh724tbgm",
+      "dosage": "1-2 drops",
+      "information": "Artificial tears for dry eyes.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:14.850Z",
+      "updatedAt": "2025-11-06T10:03:14.850Z"
+    },
+    {
+      "id": "cmhn9dv95002vlhcwrnapx619",
+      "code": "ATRO001",
+      "name": "Atropine 1% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9dbkd000hlhcw5ry0uvnv",
+      "drugGroupId": "cmhn9dg620016lhcw1jtfklx9",
+      "dosageScheduleId": "cmhn9dhkx001hlhcwnuygpqbh",
+      "dosage": "1 drop",
+      "information": "Long-acting cycloplegic. Used for uveitis and amblyopia.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:15.444Z",
+      "updatedAt": "2025-11-06T10:03:15.444Z"
+    },
+    {
+      "id": "cmhn9dv9f002xlhcwe7ijfsuk",
+      "code": "CHLOR001",
+      "name": "Chloramphenicol 0.5% Eye Drops",
+      "typeId": "cmhn9d7u60000lhcwqhclb9je",
+      "genericMedicineId": "cmhn9ddij000tlhcwi2p9uo24",
+      "drugGroupId": "cmhn9dg7z0018lhcwkgb9kisr",
+      "dosageScheduleId": "cmhn9dibj001klhcwoc9q7vh8",
+      "dosage": "1 drop",
+      "information": "Broad-spectrum antibiotic for bacterial conjunctivitis.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:15.459Z",
+      "updatedAt": "2025-11-06T10:03:15.459Z"
+    },
+    {
+      "id": "cmhn9e2oj002zlhcwmabsztxn",
+      "code": "CHLOR002",
+      "name": "Chloramphenicol 1% Eye Ointment",
+      "typeId": "cmhn9d8ft0001lhcwohopwshr",
+      "genericMedicineId": "cmhn9ddij000tlhcwi2p9uo24",
+      "drugGroupId": "cmhn9dg7z0018lhcwkgb9kisr",
+      "dosageScheduleId": "cmhn9div0001olhcwh7wuxobp",
+      "dosage": "Apply thin layer",
+      "information": "Antibiotic ointment for nighttime use.",
+      "isActive": true,
+      "createdAt": "2025-11-06T10:03:25.075Z",
+      "updatedAt": "2025-11-06T10:03:25.075Z"
+    }
+  ]
+}

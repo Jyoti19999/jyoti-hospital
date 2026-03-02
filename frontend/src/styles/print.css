@@ -1,0 +1,116 @@
+/* Print styles for appointment booking */
+@media print {
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  body {
+    background: white !important;
+  }
+
+  /* Hide everything except the printable content */
+  body * {
+    visibility: hidden;
+  }
+
+  #printable-appointment,
+  #printable-appointment * {
+    visibility: visible;
+  }
+
+  /* Print layout */
+  #printable-appointment {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: white;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Page setup */
+  @page {
+    size: A4;
+    margin: 1in;
+  }
+
+  /* Token number styling for print */
+  .token-highlight {
+    background: #dbeafe !important;
+    border: 2px solid #3b82f6 !important;
+    color: #1e40af !important;
+  }
+
+  /* QR code container */
+  .qr-container {
+    border: 1px solid #666 !important;
+    background: white !important;
+  }
+
+  /* Remove shadows and fancy styling */
+  .print\:shadow-none {
+    box-shadow: none !important;
+  }
+
+  .print\:border {
+    border: 1px solid #ccc !important;
+  }
+
+  .print\:border-gray-300 {
+    border-color: #d1d5db !important;
+  }
+
+  .print\:border-gray-400 {
+    border-color: #9ca3af !important;
+  }
+
+  .print\:bg-white {
+    background-color: white !important;
+  }
+
+  .print\:bg-blue-100 {
+    background-color: #dbeafe !important;
+  }
+
+  .print\:bg-gray-50 {
+    background-color: #f9fafb !important;
+  }
+
+  .print\:text-black {
+    color: black !important;
+  }
+
+  .print\:text-blue-800 {
+    color: #1e40af !important;
+  }
+
+  .print\:text-gray-600 {
+    color: #4b5563 !important;
+  }
+
+  .print\:text-center {
+    text-align: center !important;
+  }
+
+  .print\:hidden {
+    display: none !important;
+  }
+
+  .print\:w-20 {
+    width: 5rem !important;
+  }
+
+  .print\:h-20 {
+    height: 5rem !important;
+  }
+
+  .print\:space-y-4 > * + * {
+    margin-top: 1rem !important;
+  }
+
+  .print\:max-w-full {
+    max-width: 100% !important;
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "ansconeng": {
+    "pdfName": "ansconeng_annotated.pdf",
+    "totalFields": 18,
+    "fields": [
+      {
+        "index": 1,
+        "name": "ipdnum",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": true,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 2,
+        "name": "sex",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": true,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 3,
+        "name": "ophname",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 4,
+        "name": "anename",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 5,
+        "name": "consequences",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 6,
+        "name": "risks",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 7,
+        "name": "lang",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 8,
+        "name": "signumber",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 9,
+        "name": "address",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 10,
+        "name": "witnessname",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 11,
+        "name": "ophname2",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 12,
+        "name": "curtime",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 13,
+        "name": "todaydate",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 14,
+        "name": "pnum",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": true,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 15,
+        "name": "pname",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": true,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 16,
+        "name": "pname2",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": true,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 17,
+        "name": "age",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": true,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 18,
+        "name": "age2",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": true,
+        "isPassword": false,
+        "isReadOnly": false
+      }
+    ]
+  },
+  "ophsureng": {
+    "pdfName": "ophsureng_annotated.pdf",
+    "totalFields": 12,
+    "fields": [
+      {
+        "index": 1,
+        "name": "pname",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 2,
+        "name": "page",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 3,
+        "name": "sex",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 4,
+        "name": "prn",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 5,
+        "name": "sufferingfrom",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 6,
+        "name": "treatment",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 7,
+        "name": "surgicalprocessexplained",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 8,
+        "name": "date",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 9,
+        "name": "ophname",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 10,
+        "name": "date2",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 11,
+        "name": "date3",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      },
+      {
+        "index": 12,
+        "name": "date1",
+        "type": "PDFTextField",
+        "maxLength": "unlimited",
+        "defaultValue": "",
+        "isMultiline": false,
+        "isPassword": false,
+        "isReadOnly": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,1256 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Hospital {
+  id                 String    @id @default(cuid())
+  hospitalName       String
+  hospitalCode       String?   @unique
+  registrationNumber String?
+  licenseNumber      String?
+  address            Json?
+  phone              String?
+  email              String?
+  website            String?
+  establishedDate    DateTime?
+  hospitalType       String?
+  accreditation      Json?
+  totalBeds          Int?
+  totalRooms         Int?
+  totalFloors        Int?
+  operatingHours     Json?
+  emergencyServices  Boolean   @default(false)
+  logo               String?
+  timezone           String    @default("Asia/Kolkata")
+  currency           String    @default("INR")
+  supportedLanguages String[]  @default(["en", "hi"])
+  taxSettings        Json?
+  configuration      Json?
+  isActive           Boolean   @default(true)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  bills              Bill[]
+
+  @@map("hospital")
+}
+
+model Floor {
+  id          String   @id @default(cuid())
+  floorNumber Int
+  floorName   String?
+  floorType   String?
+  accessible  Boolean  @default(true)
+  description String?
+  createdAt   DateTime @default(now())
+  rooms       Room[]
+
+  @@map("floors")
+}
+
+model RoomType {
+  id                    String  @id @default(cuid())
+  typeName              String
+  typeCode              String? @unique
+  category              String?
+  defaultCapacity       Int?
+  equipmentRequirements Json?
+  costPerHour           Float?
+  rooms                 Room[]
+
+  @@map("room_types")
+}
+
+model Room {
+  id                 String        @id @default(cuid())
+  floorId            String?
+  roomTypeId         String?
+  roomNumber         String
+  roomName           String?
+  capacity           Int?
+  equipmentInstalled Json?
+  status             String        @default("available")
+  dailyRate          Float?
+  hourlyRate         Float?
+  lastCleaned        DateTime?
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+  assignedStaffId    String?
+  appointments       Appointment[]
+  beds               Bed[]
+  assignedStaff      Staff?        @relation(fields: [assignedStaffId], references: [id])
+  floor              Floor?        @relation(fields: [floorId], references: [id])
+  roomType           RoomType?     @relation(fields: [roomTypeId], references: [id])
+
+  @@map("rooms")
+}
+
+model BedType {
+  id          String  @id @default(cuid())
+  typeName    String
+  typeCode    String? @unique
+  category    String?
+  dailyCharge Float?
+  beds        Bed[]
+
+  @@map("bed_types")
+}
+
+model Bed {
+  id                    String    @id @default(cuid())
+  roomId                String?
+  bedTypeId             String?
+  bedNumber             String
+  status                String    @default("available")
+  patientId             String?
+  admissionDate         DateTime?
+  expectedDischargeDate DateTime?
+  dailyRate             Float?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  bedType               BedType?  @relation(fields: [bedTypeId], references: [id])
+  patient               Patient?  @relation(fields: [patientId], references: [id])
+  room                  Room?     @relation(fields: [roomId], references: [id])
+
+  @@map("beds")
+}
+
+model Staff {
+  id                          String                       @id @default(cuid())
+  employeeId                  String?                      @unique
+  firstName                   String
+  lastName                    String
+  email                       String?                      @unique
+  phone                       String?
+  dateOfBirth                 DateTime?
+  gender                      String?
+  address                     Json?
+  emergencyContact            Json?
+  department                  String?
+  staffType                   String
+  employmentStatus            String                       @default("active")
+  joiningDate                 DateTime?
+  qualifications              Json?
+  certifications              Json?
+  languagesSpoken             String[]
+  doctorProfile               Json?
+  nurseProfile                Json?
+  technicianProfile           Json?
+  adminProfile                Json?
+  receptionistProfile         Json?
+  receptionist2Profile        Json?
+  optometristProfile          Json?
+  accountantProfile           Json?
+  qualityCoordinatorProfile   Json?
+  patientSafetyOfficerProfile Json?
+  tpaProfile                  Json?
+  otAdminProfile              Json?
+  anesthesiologistProfile     Json?
+  surgeonProfile              Json?
+  sisterProfile               Json?
+  profilePhoto                String?
+  documents                   String[]
+  passwordHash                String?
+  isActive                    Boolean                      @default(true)
+  lastLogin                   DateTime?
+  createdAt                   DateTime                     @default(now())
+  updatedAt                   DateTime                     @updatedAt
+  appointments                Appointment[]
+  diagnoses                   Diagnosis[]
+  createdExaminationTemplates ExaminationTemplate[]
+  examinations                Examination[]
+  ophthalmologistExaminations OphthalmologistExamination[] @relation("OphthalmologistExaminations")
+  optometristExaminations     OptometristExamination[]     @relation("OptometristExaminations")
+  patientQueue                PatientQueue[]
+  patientVisits               PatientVisit[]
+  prescriptions               Prescription[]               @relation("DoctorPrescriptions")
+  rooms                       Room[]
+
+  @@map("staff")
+}
+
+model Patient {
+  id                 String    @id @default(cuid())
+  patientNumber      Int?      @unique
+  mrn                String?   @unique
+  firstName          String
+  lastName           String
+  dateOfBirth        DateTime?
+  gender             String?
+  phone              String?
+  email              String?
+  address            Json?
+  emergencyContacts  Json?
+  bloodGroup         String?
+  allergies          Json?
+  chronicConditions  Json?
+  previousSurgeries  Json?
+  familyHistory      Json?
+  lifestyle          Json?
+  eyeHistory         Json?
+  visionHistory      Json?
+  currentMedications Json?
+  riskFactors        Json?
+  insuranceDetails   Json?
+  defaultInsuranceId String?
+
+  // Profile
+  profilePhoto String? // Base64 encoded profile photo
+
+  passwordHash     String?
+  lastLogin        DateTime?
+  isReferred       Boolean          @default(false)
+  referredBy       String?
+  patientStatus    String           @default("active")
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  appointments     Appointment[]
+  beds             Bed[]
+  bills            Bill[]
+  insuranceClaims  InsuranceClaim[]
+  patientQueue     PatientQueue[]
+  patientVisits    PatientVisit[]
+  defaultInsurance Insurance?       @relation(fields: [defaultInsuranceId], references: [id])
+  referrer         Patient?         @relation("PatientReferrals", fields: [referredBy], references: [id])
+  referredPatients Patient[]        @relation("PatientReferrals")
+  payments         Payment[]
+
+  @@map("patients")
+}
+
+model PatientVisit {
+  id                          String                       @id @default(cuid())
+  patientId                   String
+  appointmentId               String                       @unique
+  doctorId                    String?
+  visitNumber                 Int?
+  visitType                   String?
+  visitDate                   DateTime                     @default(now())
+  chiefComplaint              String?
+  presentingSymptoms          Json?
+  visionComplaints            Json?
+  eyeSymptoms                 Json?
+  onsetDuration               String?
+  status                      VisitStatus                  @default(CHECKED_IN)
+  priorityLevel               String?
+  checkedInAt                 DateTime                     @default(now())
+  optometristCalledAt         DateTime?
+  optometristSeenAt           DateTime?
+  doctorCalledAt              DateTime?
+  doctorSeenAt                DateTime?
+  billingInitiatedAt          DateTime?
+  completedAt                 DateTime?
+  admissionDate               DateTime?
+  dischargeDate               DateTime?
+  estimatedCost               Float?
+  insuranceCoverage           Float?
+  totalEstimatedCost          Float?                       @default(0)
+  totalActualCost             Float?                       @default(0)
+  visitOutcome                String?
+  followUpInstructions        Json?
+  followUpRequired            Boolean                      @default(false)
+  followUpDate                DateTime?
+  nextAppointmentDate         DateTime?
+  receptionist2Notes          String?
+  createdAt                   DateTime                     @default(now())
+  updatedAt                   DateTime                     @updatedAt
+  bills                       Bill[]
+  diagnoses                   Diagnosis[]
+  examinations                Examination[]
+  ophthalmologistExaminations OphthalmologistExamination[]
+  optometristExamination      OptometristExamination?
+  patientQueue                PatientQueue[]
+  appointment                 Appointment                  @relation(fields: [appointmentId], references: [id])
+  doctor                      Staff?                       @relation(fields: [doctorId], references: [id])
+  patient                     Patient                      @relation(fields: [patientId], references: [id])
+  prescriptions               Prescription[]
+
+  @@unique([patientId, visitNumber])
+  @@map("patient_visits")
+}
+
+model Icd11Code {
+  id                    String    @id @default(cuid())
+  foundationId          String    @unique
+  code                  String?
+  title                 Json?
+  definition            Json?
+  chapter               String?
+  isEyeRelated          Boolean   @default(false)
+  ophthalmologyCategory String?
+  inclusionTerms        Json?
+  exclusionTerms        Json?
+  isActive              Boolean   @default(true)
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+  diseases              Disease[]
+
+  @@map("icd11_codes")
+}
+
+model Disease {
+  id                    String      @id @default(cuid())
+  icd11CodeId           String?
+  diseaseName           Json?
+  commonNames           Json?
+  ophthalmologyCategory String?
+  affectedStructure     String?
+  eyeAffected           String?
+  symptoms              Json?
+  signs                 Json?
+  diagnosticCriteria    Json?
+  treatmentProtocols    Json?
+  surgicalOptions       Json?
+  prognosis             Json?
+  visualImpactLevel     String?
+  urgencyLevel          String?
+  isChronic             Boolean     @default(false)
+  requiresSurgery       Boolean     @default(false)
+  affectsVision         Boolean     @default(true)
+  createdAt             DateTime    @default(now())
+  updatedAt             DateTime    @updatedAt
+  diagnoses             Diagnosis[]
+  icd11Code             Icd11Code?  @relation(fields: [icd11CodeId], references: [id])
+
+  @@map("diseases")
+}
+
+model ExaminationTemplate {
+  id                  String        @id @default(cuid())
+  templateName        String
+  examinationType     String?
+  ophthalmologyType   String?
+  requiredEquipment   String[]
+  templateStructure   Json?
+  formFields          Json?
+  normalRanges        Json?
+  visualAcuitySection Json?
+  refractionSection   Json?
+  slitLampSection     Json?
+  fundoscopySection   Json?
+  iopSection          Json?
+  visualFieldSection  Json?
+  version             String?
+  isActive            Boolean       @default(true)
+  createdBy           String?
+  createdAt           DateTime      @default(now())
+  updatedAt           DateTime      @updatedAt
+  createdByStaff      Staff?        @relation(fields: [createdBy], references: [id])
+  examinations        Examination[]
+
+  @@map("examination_templates")
+}
+
+model Examination {
+  id                     String               @id @default(cuid())
+  visitId                String
+  templateId             String?
+  doctorId               String
+  examinationType        String?
+  examinationDate        DateTime             @default(now())
+  vitalSigns             Json?
+  visualAcuity           Json?
+  refraction             Json?
+  intraocularPressure    Json?
+  slitLampFindings       Json?
+  fundoscopyFindings     Json?
+  visualFieldResults     Json?
+  colorVisionTest        Json?
+  octFindings            Json?
+  fundusPhotography      Json?
+  fluoresceinAngiography Json?
+  ultrasonography        Json?
+  clinicalImpressions    String?
+  assessment             Json?
+  treatmentPlan          Json?
+  images                 Json?
+  reports                Json?
+  followUpRequired       Boolean              @default(false)
+  followUpDate           DateTime?
+  status                 String               @default("completed")
+  createdAt              DateTime             @default(now())
+  updatedAt              DateTime             @updatedAt
+  diagnoses              Diagnosis[]
+  doctor                 Staff                @relation(fields: [doctorId], references: [id])
+  template               ExaminationTemplate? @relation(fields: [templateId], references: [id])
+  visit                  PatientVisit         @relation(fields: [visitId], references: [id])
+
+  @@map("examinations")
+}
+
+model Diagnosis {
+  id                           String                      @id @default(cuid())
+  visitId                      String
+  examinationId                String?
+  ophthalmologistExaminationId String?
+  diseaseId                    String?
+  doctorId                     String
+  diagnosisType                String?
+  diagnosisDate                DateTime                    @default(now())
+  confidenceLevel              Float?
+  eyeAffected                  String?
+  visualImpact                 String?
+  severity                     String?
+  stage                        String?
+  onsetDate                    DateTime?
+  progression                  String?
+  diagnosticEvidence           Json?
+  supportingFindings           Json?
+  treatmentRecommended         Json?
+  surgeryRequired              Boolean                     @default(false)
+  urgencyLevel                 String?
+  isPrimary                    Boolean                     @default(false)
+  billable                     Boolean                     @default(true)
+  notes                        String?
+  createdAt                    DateTime                    @default(now())
+  updatedAt                    DateTime                    @updatedAt
+  disease                      Disease?                    @relation(fields: [diseaseId], references: [id])
+  doctor                       Staff                       @relation(fields: [doctorId], references: [id])
+  examination                  Examination?                @relation(fields: [examinationId], references: [id])
+  ophthalmologistExamination   OphthalmologistExamination? @relation(fields: [ophthalmologistExaminationId], references: [id])
+  visit                        PatientVisit                @relation(fields: [visitId], references: [id])
+
+  @@map("diagnoses")
+}
+
+model Appointment {
+  id                String            @id @default(cuid())
+  patientId         String
+  doctorId          String?
+  appointmentDate   DateTime
+  appointmentTime   String?
+  tokenNumber       String            @unique
+  qrCode            String?
+  estimatedDuration Int?
+  status            AppointmentStatus @default(SCHEDULED)
+  appointmentType   String?
+  purpose           String?
+  notes             String?
+  roomId            String?
+  estimatedCost     Float?
+  cancelReason      String?
+  rescheduledFrom   String?
+  rescheduledTo     String?
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  doctor            Staff?            @relation(fields: [doctorId], references: [id])
+  patient           Patient           @relation(fields: [patientId], references: [id])
+  room              Room?             @relation(fields: [roomId], references: [id])
+  patientVisit      PatientVisit?
+
+  @@index([appointmentDate, status])
+  @@map("appointments")
+}
+
+model PatientQueue {
+  id                      String        @id @default(cuid())
+  patientId               String
+  patientVisitId          String
+  queueFor                QueueFor
+  queueNumber             Int
+  priority                Int           @default(0)
+  priorityLabel           PriorityLabel @default(ROUTINE)
+  status                  QueueStatus   @default(WAITING)
+  assignedStaffId         String?
+  doctorQueuePosition     Int?          // Position within doctor's specific queue (1,2,3...)
+  estimatedWaitTime       Int?
+  joinedAt                DateTime      @default(now())
+  calledAt                DateTime?
+  inProgressAt            DateTime?
+  completedAt             DateTime?
+  onHoldAt                DateTime?
+  resumedAt               DateTime?
+  holdReason              String?
+  estimatedResumeTime     DateTime?
+  actualHoldDuration      Int?
+  notes                   String?
+  transferReason          String?
+  createdAt               DateTime      @default(now())
+  updatedAt               DateTime      @updatedAt
+  receptionist2Reviewed   Boolean       @default(false)
+  receptionist2ReviewedAt DateTime?
+  receptionist2ReviewedBy String?
+  receptionist2Notes      String?
+  assignedStaff           Staff?        @relation(fields: [assignedStaffId], references: [id])
+  patient                 Patient       @relation(fields: [patientId], references: [id])
+  patientVisit            PatientVisit  @relation(fields: [patientVisitId], references: [id])
+
+  @@unique([queueFor, queueNumber, joinedAt])
+  @@index([queueFor, status, priority, joinedAt])
+  @@index([patientId])
+  @@index([assignedStaffId, doctorQueuePosition])
+  @@index([assignedStaffId, status, doctorQueuePosition])
+  @@map("patient_queue")
+}
+
+model OptometristExamination {
+  id                      String       @id @default(cuid())
+  patientVisitId          String       @unique
+  optometristId           String
+  visualAcuity            Json?
+  refraction              Json?
+  tonometry               Json?
+  additionalTests         Json?
+  clinicalDetails         Json?
+  clinicalNotes           String?
+  preliminaryDiagnosis    String?
+  assignedDoctor          String?
+  urgencyLevel            String?
+  additionalOrders        Json?
+  knownAllergies          Json?
+  ucvaOD                  String?
+  ucvaOS                  String?
+  bcvaOD                  String?
+  bcvaOS                  String?
+  refractionSphereOD      Float?
+  refractionCylinderOD    Float?
+  refractionAxisOD        Int?
+  refractionSphereOS      Float?
+  refractionCylinderOS    Float?
+  refractionAxisOS        Int?
+  iopOD                   Float?
+  iopOS                   Float?
+  iopMethod               String?
+  colorVision             String?
+  pupilReaction           String?
+  eyeAlignment            String?
+  anteriorSegment         Json?
+  additionalNotes         String?
+  proceedToDoctor         Boolean      @default(true)
+  requiresDilation        Boolean      @default(false)
+  additionalTestsLegacy   Json?
+  examinationStatus       String       @default("completed")
+  completedAt             DateTime?
+  receptionist2Reviewed   Boolean      @default(false)
+  receptionist2ReviewedAt DateTime?
+  receptionist2ReviewedBy String?
+  receptionist2Notes      String?
+  createdAt               DateTime     @default(now())
+  updatedAt               DateTime     @updatedAt
+  optometrist             Staff        @relation("OptometristExaminations", fields: [optometristId], references: [id])
+  patientVisit            PatientVisit @relation(fields: [patientVisitId], references: [id])
+
+  @@map("optometrist_examinations")
+}
+
+model OphthalmologistExamination {
+  id                      String       @id @default(cuid())
+  patientVisitId          String
+  doctorId                String
+  examinationSequence     Int          @default(1)
+  
+  // Matching optometrist_examinations structure exactly
+  visualAcuity            Json?
+  refraction              Json?
+  tonometry               Json?
+  additionalTests         Json?
+  clinicalDetails         Json?
+  clinicalNotes           String?
+  preliminaryDiagnosis    String?
+  assignedDoctor          String?
+  urgencyLevel            String?
+  additionalOrders        Json?
+  knownAllergies          Json?
+  ucvaOD                  String?
+  ucvaOS                  String?
+  bcvaOD                  String?
+  bcvaOS                  String?
+  refractionSphereOD      Float?
+  refractionCylinderOD    Float?
+  refractionAxisOD        Int?
+  refractionSphereOS      Float?
+  refractionCylinderOS    Float?
+  refractionAxisOS        Int?
+  iopOD                   Float?
+  iopOS                   Float?
+  iopMethod               String?
+  colorVision             String?
+  pupilReaction           String?
+  eyeAlignment            String?
+  anteriorSegment         Json?
+  additionalNotes         String?
+  proceedToDoctor         Boolean      @default(true)
+  requiresDilation        Boolean      @default(false)
+  additionalTestsLegacy   Json?
+  examinationStatus       String       @default("completed")
+  completedAt             DateTime?
+  receptionist2Reviewed   Boolean      @default(false)
+  receptionist2ReviewedAt DateTime?
+  receptionist2ReviewedBy String?
+  receptionist2Notes      String?
+
+  // Visual Acuity fields for ophthalmologist interface
+  distanceOD              String?
+  distanceOS              String?
+  distanceBinocular       String?
+  nearOD                  String?
+  nearOS                  String?
+  nearBinocular           String?
+  
+  // Additional refraction fields
+  refractionAddOD         Float?
+  refractionAddOS         Float?
+  refractionPD            Float?
+  
+  // Additional tests fields
+  extraocularMovements    String?
+  coverTest               String?
+  
+  // Pre-operative parameters
+  k1OD                    String?
+  k1OS                    String?
+  k2OD                    String?
+  k2OS                    String?
+  flatAxisOD              String?
+  flatAxisOS              String?
+  acdOD                   String?
+  acdOS                   String?
+  axlOD                   String?
+  axlOS                   String?
+  iolPowerPlannedOD       String?
+  iolPowerPlannedOS       String?
+  iolImplantedOD          String?
+  iolImplantedOS          String?
+  anyOtherDetailsOD       String?
+  anyOtherDetailsOS       String?
+  
+  // Slit lamp examination individual fields
+  eyelidsOD               String?
+  eyelidsOS               String?
+  conjunctivaOD           String?
+  conjunctivaOS           String?
+  corneaOD                String?
+  corneaOS                String?
+  lensOD                  String?
+  lensOS                  String?
+  
+  // My Examination Tab fields
+  examinationNotes        String?
+  additionalTestsOrdered  Json?
+  followUpPeriod          String?
+  followUpDays            Int?
+
+  // Additional examination fields specific to ophthalmologist
+  slitLampFindings        Json?
+  fundoscopyFindings      Json?
+  visualFieldResults      Json?
+  octFindings             Json?
+  fundusPhotography       Json?
+  angiographyFindings     Json?
+  ultrasonography         Json?
+  clinicalImpressions     String?
+  assessment              Json?
+  treatmentPlan           Json?
+  surgeryRecommended      Boolean      @default(false)
+  surgeryType             String?
+  followUpRequired        Boolean      @default(false)
+  followUpDate            DateTime?
+  followUpInstructions    Json?
+  
+  createdAt               DateTime     @default(now())
+  updatedAt               DateTime     @updatedAt
+  diagnoses               Diagnosis[]
+  doctor                  Staff        @relation("OphthalmologistExaminations", fields: [doctorId], references: [id])
+  patientVisit            PatientVisit @relation(fields: [patientVisitId], references: [id])
+  prescriptions           Prescription[]
+
+  @@unique([patientVisitId, examinationSequence])
+  @@map("ophthalmologist_examinations")
+}
+
+model Bill {
+  id                      String          @id @default(cuid())
+  billNumber              String          @unique
+  patientId               String
+  patientVisitId          String?
+  hospitalId              String
+  billDate                DateTime        @default(now())
+  dueDate                 DateTime?
+  status                  BillStatus      @default(DRAFT)
+  subTotal                Float           @default(0)
+  taxAmount               Float           @default(0)
+  discountAmount          Float           @default(0)
+  totalAmount             Float           @default(0)
+  paidAmount              Float           @default(0)
+  balanceAmount           Float           @default(0)
+  billedBy                String?
+  approvedBy              String?
+  insuranceClaimId        String?
+  estimatedInsuranceCover Float?          @default(0)
+  notes                   String?
+  createdAt               DateTime        @default(now())
+  updatedAt               DateTime        @updatedAt
+  billItems               BillItem[]
+  hospital                Hospital        @relation(fields: [hospitalId], references: [id])
+  insuranceClaim          InsuranceClaim? @relation(fields: [insuranceClaimId], references: [id])
+  patient                 Patient         @relation(fields: [patientId], references: [id])
+  patientVisit            PatientVisit?   @relation(fields: [patientVisitId], references: [id])
+  payments                Payment[]
+
+  @@index([billDate, status])
+  @@map("bills")
+}
+
+model BillItem {
+  id             String   @id @default(cuid())
+  billId         String
+  itemType       ItemType
+  itemCode       String?
+  itemName       String
+  description    String?
+  quantity       Float    @default(1)
+  unitPrice      Float
+  totalPrice     Float
+  taxRate        Float?   @default(0)
+  taxAmount      Float?   @default(0)
+  discountRate   Float?   @default(0)
+  discountAmount Float?   @default(0)
+  serviceId      String?
+  examinationId  String?
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  bill           Bill     @relation(fields: [billId], references: [id])
+
+  @@map("bill_items")
+}
+
+model Payment {
+  id              String        @id @default(cuid())
+  billId          String
+  patientId       String
+  paymentDate     DateTime      @default(now())
+  paymentMethod   PaymentMethod
+  amount          Float
+  transactionId   String?
+  referenceNumber String?
+  bankName        String?
+  cardLast4       String?
+  status          String        @default("completed")
+  notes           String?
+  processedBy     String?
+  createdAt       DateTime      @default(now())
+  updatedAt       DateTime      @updatedAt
+  bill            Bill          @relation(fields: [billId], references: [id])
+  patient         Patient       @relation(fields: [patientId], references: [id])
+
+  @@map("payments")
+}
+
+model Insurance {
+  id               String           @id @default(cuid())
+  insuranceName    String
+  insuranceType    String
+  policyNumber     String?
+  coverageAmount   Float?
+  deductibleAmount Float?
+  copayPercentage  Float?
+  validFrom        DateTime?
+  validTo          DateTime?
+  contactNumber    String?
+  email            String?
+  address          Json?
+  isActive         Boolean          @default(true)
+  createdAt        DateTime         @default(now())
+  updatedAt        DateTime         @updatedAt
+  insuranceClaims  InsuranceClaim[]
+  patients         Patient[]
+
+  @@map("insurance")
+}
+
+model InsuranceClaim {
+  id             String    @id @default(cuid())
+  claimNumber    String    @unique
+  patientId      String
+  insuranceId    String
+  claimAmount    Float
+  approvedAmount Float?    @default(0)
+  settledAmount  Float?    @default(0)
+  status         String    @default("submitted")
+  documents      Json?
+  submittedAt    DateTime  @default(now())
+  processedAt    DateTime?
+  settledAt      DateTime?
+  notes          String?
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+  bills          Bill[]
+  insurance      Insurance @relation(fields: [insuranceId], references: [id])
+  patient        Patient   @relation(fields: [patientId], references: [id])
+
+  @@map("insurance_claims")
+}
+
+model Prescription {
+  id                   String                      @id @default(cuid())
+  prescriptionNumber   String                      @unique
+  patientVisitId       String
+  examinationId        String?
+  doctorId             String
+  prescriptionDate     DateTime                    @default(now())
+  validTill            DateTime?
+  generalInstructions  String?
+  followUpInstructions String?
+  status               String                      @default("active")
+  createdAt            DateTime                    @default(now())
+  updatedAt            DateTime                    @updatedAt
+  prescriptionItems    PrescriptionItem[]
+  doctor               Staff                       @relation("DoctorPrescriptions", fields: [doctorId], references: [id])
+  examination          OphthalmologistExamination? @relation(fields: [examinationId], references: [id])
+  patientVisit         PatientVisit                @relation(fields: [patientVisitId], references: [id])
+
+  @@map("prescriptions")
+}
+
+model PrescriptionItem {
+  id             String        @id @default(cuid())
+  prescriptionId String
+  medicineId     String?
+  medicineName   String
+  dosage         String
+  frequency      String
+  duration       String
+  instructions   String?
+  quantity       Int?
+  createdAt      DateTime      @default(now())
+  updatedAt      DateTime      @updatedAt
+  prescription   Prescription  @relation(fields: [prescriptionId], references: [id])
+  medicine       Medicine?     @relation(fields: [medicineId], references: [id])
+
+  @@map("prescription_items")
+}
+
+model SuperAdmin {
+  id           String   @id @default(cuid())
+  firstName    String
+  lastName     String
+  email        String   @unique
+  passwordHash String
+  phone        String?
+  isActive     Boolean  @default(true)
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("super_admins")
+}
+
+model OTP {
+  id          String   @id @default(cuid())
+  identifier  String
+  otp         String
+  purpose     String
+  expiresAt   DateTime
+  attempts    Int      @default(0)
+  maxAttempts Int      @default(3)
+  isUsed      Boolean  @default(false)
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([identifier, purpose, isUsed])
+  @@index([expiresAt])
+  @@map("otps")
+}
+
+enum AppointmentStatus {
+  SCHEDULED
+  CHECKED_IN
+  RESCHEDULED
+  CANCELLED
+  NO_SHOW
+  COMPLETED
+}
+
+enum QueueFor {
+  OPTOMETRIST
+  OPHTHALMOLOGIST
+  DIAGNOSTICS
+  SURGERY
+  BILLING
+  PHARMACY
+}
+
+enum QueueStatus {
+  WAITING
+  CALLED
+  IN_PROGRESS
+  ON_HOLD
+  COMPLETED
+}
+
+enum PriorityLabel {
+  PRIORITY
+  EMERGENCY
+  CHILDREN
+  SENIORS
+  LONGWAIT
+  REFERRAL
+  FOLLOWUP
+  ROUTINE
+  PREPOSTOP
+}
+
+enum VisitStatus {
+  CHECKED_IN
+  WITH_OPTOMETRIST
+  AWAITING_DOCTOR
+  WITH_DOCTOR
+  DIAGNOSTICS_PENDING
+  SURGERY_SCHEDULED
+  BILLING
+  PHARMACY
+  COMPLETED
+  DISCHARGED
+}
+
+enum BillStatus {
+  DRAFT
+  PENDING
+  PARTIALLY_PAID
+  PAID
+  OVERDUE
+  CANCELLED
+  REFUNDED
+}
+
+enum PaymentMethod {
+  CASH
+  CARD
+  UPI
+  NET_BANKING
+  INSURANCE
+  CHEQUE
+}
+
+enum ItemType {
+  CONSULTATION
+  PROCEDURE
+  MEDICINE
+  DIAGNOSTIC_TEST
+  ROOM_CHARGES
+  EQUIPMENT_USAGE
+  OTHER
+}
+
+// Medicine Master Models
+model MedicineType {
+  id        String     @id @default(cuid())
+  name      String     @unique
+  isActive  Boolean    @default(true)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  medicines Medicine[]
+
+  @@map("medicine_types")
+}
+
+model GenericMedicine {
+  id        String     @id @default(cuid())
+  name      String     @unique
+  isActive  Boolean    @default(true)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  medicines Medicine[]
+
+  @@map("generic_medicines")
+}
+
+model DrugGroup {
+  id        String     @id @default(cuid())
+  name      String     @unique
+  isActive  Boolean    @default(true)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  medicines Medicine[]
+
+  @@map("drug_groups")
+}
+
+model DosageSchedule {
+  id        String     @id @default(cuid())
+  name      String     @unique
+  isActive  Boolean    @default(true)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  medicines Medicine[]
+
+  @@map("dosage_schedules")
+}
+
+model Medicine {
+  id                String            @id @default(cuid())
+  code              String?           @unique
+  name              String
+  typeId            String?
+  genericMedicineId String?
+  drugGroupId       String?
+  dosageScheduleId  String?
+  dosage            String?
+  information       String?
+  isActive          Boolean           @default(true)
+  createdAt         DateTime          @default(now())
+  updatedAt         DateTime          @updatedAt
+  type              MedicineType?     @relation(fields: [typeId], references: [id])
+  genericMedicine   GenericMedicine?  @relation(fields: [genericMedicineId], references: [id])
+  drugGroup         DrugGroup?        @relation(fields: [drugGroupId], references: [id])
+  dosageSchedule    DosageSchedule?   @relation(fields: [dosageScheduleId], references: [id])
+  prescriptionItems PrescriptionItem[]
+
+  @@map("medicines")
+}
+// OT Admin Register Models
+
+// ETO Register
+model EtoRegister {
+  id                String    @id @default(cuid())
+  date              DateTime
+  nameOfItem        String
+  batch             String?
+  loadNo            String?
+  chargeInTime      String?
+  switchOff         String?
+  otInHrs           Float?
+  indicatorSlnp     String?
+  biSeparate        String?
+  yesNo             String?   // Y/N field
+  passedFailed      String?   // P/F field
+  integratedStnp    String?
+  signCssd          String?   // Will be enhanced later for actual signatures
+  signIdd           String?   // Will be enhanced later for actual signatures
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@map("eto_register")
+}
+
+// OT Temperature Register
+model OtTemperatureRegister {
+  id                String    @id @default(cuid())
+  date              DateTime
+  temperature9Am    Float?    // Temperature in Celsius
+  temperature12Pm   Float?
+  temperature3Pm    Float?
+  temperature6Pm    Float?
+  humidity9Am       Float?    // Humidity in percentage
+  humidity12Pm      Float?
+  humidity3Pm       Float?
+  humidity6Pm       Float?
+  pressure9Am       Float?    // Pressure in decimal (e.g., 2.4)
+  pressure12Pm      Float?
+  pressure3Pm       Float?
+  pressure6Pm       Float?
+  sign              String?   // Staff signature
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@map("ot_temperature_register")
+}
+
+// Refrigerator Temperature Register
+model RefrigeratorTemperatureRegister {
+  id                String    @id @default(cuid())
+  date              DateTime
+  temperature12Pm   Float?    // Temperature in Celsius
+  temperature3Pm    Float?
+  temperature6Pm    Float?
+  sign              String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@map("refrigerator_temperature_register")
+}
+
+// OT Emergency Stock Register
+model OtEmergencyStockRegister {
+  id                String    @id @default(cuid())
+  srNo              Int
+  nameOfInjection   String
+  expectedStock     Int?
+  brandName         String?
+  batchNo           String?
+  marginDate        DateTime? // Assuming this is manufacturing date
+  expiryDate        DateTime?
+  sign              String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@map("ot_emergency_stock_register")
+}
+
+// Fridge Stock Medicines Register
+model FridgeStockMedicinesRegister {
+  id                String    @id @default(cuid())
+  srNo              Int
+  nameOfInjection   String
+  expectedStock     Int?
+  entryDate         DateTime  @default(now()) // Daily basis entry, no entry on Sunday
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@map("fridge_stock_medicines_register")
+}
+
+// Emergency Register
+model EmergencyRegister {
+  id                String    @id @default(cuid())
+  srNo              Int
+  date              DateTime
+  time              String
+  patientName       String
+  age               Int?
+  sex               String?
+  prnNo             String?   // PRN Number
+  ipdNo             String?   // IPD Number
+  complaints        String?
+  treatmentGiven    String?
+  mlcYesNo          String?   // MLC Yes/No
+  mlcNo             String?   // If MLC Then No
+  doctorSign        String?   // Will be enhanced later for actual signatures
+  staffSign         String?   // Will be enhanced later for actual signatures
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@map("emergency_register")
+}
+
+// O2 and N2 Pressure Check Register
+model O2N2PressureCheckRegister {
+  id                String    @id @default(cuid())
+  date              DateTime
+  time              String
+  o2Big             Float?    // O2 Big (number)
+  o2Small           Float?    // O2 Small (number)
+  n2                Float?    // N2 (number)
+  sign              String?
+  remark            String?
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@map("o2_n2_pressure_check_register")
+}
+
+// Equipment Stock Register - Daily medicine tracking (no updates on Sunday)
+model EquipmentStockRegister {
+  id                String    @id @default(cuid())
+  srNo              Int
+  medicineName      String
+  dailyStock        Json      // Stores daily stock values as { "1": 10, "2": 15, ... "31": 20 }
+  month             Int       // 1-12
+  year              Int
+  createdAt         DateTime  @default(now())
+  updatedAt         DateTime  @updatedAt
+  createdBy         String?
+  
+  @@unique([medicineName, month, year])
+  @@map("equipment_stock_register")
+}
+
+// Hospital Letterhead Template Models
+model LetterheadTemplate {
+  id           String   @id @default(cuid())
+  name         String
+  description  String?
+  elements     Json     // Array of element configurations with position, size, type, content
+  pageSettings Json?    // Page size, margins, orientation
+  isDefault    Boolean  @default(false)
+  isActive     Boolean  @default(true)
+  createdBy    String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  @@map("letterhead_templates")
+}
+
+// Digital Register System - Dynamic register creation
+model DigitalRegisterDefinition {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?
+  isActive    Boolean  @default(true)
+  createdBy   String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  columns     DigitalRegisterColumn[]
+  records     DigitalRegisterRecord[]
+  
+  @@map("digital_register_definitions")
+}
+
+model DigitalRegisterColumn {
+  id           String     @id @default(cuid())
+  registerId   String
+  columnName   String
+  columnType   ColumnType
+  isRequired   Boolean    @default(false)
+  displayOrder Int
+  minLength    Int?
+  maxLength    Int?
+  minValue     Float?
+  maxValue     Float?
+  pattern      String?
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+  
+  register     DigitalRegisterDefinition @relation(fields: [registerId], references: [id], onDelete: Cascade)
+  values       DigitalRegisterValue[]
+  
+  @@unique([registerId, columnName])
+  @@map("digital_register_columns")
+}
+
+model DigitalRegisterRecord {
+  id         String   @id @default(cuid())
+  registerId String
+  createdBy  String?
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+  
+  register   DigitalRegisterDefinition @relation(fields: [registerId], references: [id], onDelete: Cascade)
+  values     DigitalRegisterValue[]
+  
+  @@map("digital_register_records")
+}
+
+model DigitalRegisterValue {
+  id          String    @id @default(cuid())
+  recordId    String
+  columnId    String
+  textValue   String?
+  numberValue Float?
+  dateValue   DateTime?
+  imageValue  String?   // File path or URL
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  
+  record      DigitalRegisterRecord @relation(fields: [recordId], references: [id], onDelete: Cascade)
+  column      DigitalRegisterColumn @relation(fields: [columnId], references: [id], onDelete: Cascade)
+  
+  @@unique([recordId, columnId])
+  @@map("digital_register_values")
+}
+
+enum ColumnType {
+  TEXT
+  NUMBER
+  LONG_NUMBER
+  DATE
+  TIME
+  DATETIME
+  IMAGE
+  EMAIL
+  MOBILE
+  URL
+}
