@@ -8,11 +8,14 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm install
 
+# Generate Prisma client
+RUN npx prisma generate
+
 # Copy project files
 COPY . .
 
-# Expose the backend port (adjust if different)
-EXPOSE 5000
+# Expose the backend port (make sure this matches your code)
+EXPOSE 8080
 
-# Use nodemon in development
+# Start the app
 CMD ["npm", "run", "dev"]
