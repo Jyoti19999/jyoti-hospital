@@ -16,7 +16,7 @@ COPY . .
 RUN npx prisma generate
 
 # Run all seed scripts
-RUN node backend/prisma/seed-eyedrop-reasons.js
+
 RUN node backend/prisma/seed-ot-equipment.js
 RUN node backend/prisma/seed-staff-types.js
 RUN node backend/prisma/seed-staff.js
