@@ -9,18 +9,18 @@ COPY package*.json ./
 RUN npm cache clean --force
 RUN npm install
 
-# Copy project files, including prisma folder
+# Copy entire project files
 COPY . .
 
 # Generate Prisma client
 RUN npx prisma generate
 
-# Run all seed scripts one by one
-RUN node prisma/seed-eyedrop-reasons.js
-RUN node prisma/seed-ot-equipment.js
-RUN node prisma/seed-staff-types.js
-RUN node prisma/seed-staff.js
-RUN node prisma/seed-superadmin.js
+# Run all seed scripts
+RUN node backend/prisma/seed-eyedrop-reasons.js
+RUN node backend/prisma/seed-ot-equipment.js
+RUN node backend/prisma/seed-staff-types.js
+RUN node backend/prisma/seed-staff.js
+RUN node backend/prisma/seed-superadmin.js
 
 # Expose the backend port
 EXPOSE 8080
