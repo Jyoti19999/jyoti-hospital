@@ -18,9 +18,9 @@ RUN npx prisma generate
 # Run all seed scripts
 
 
-RUN node backend/prisma/seed-staff-types.js
-RUN node backend/prisma/seed-staff.js
-RUN node backend/prisma/seed-superadmin.js
+RUN node prisma/seed-staff-types.js
+RUN node prisma/seed-staff.js
+RUN node prisma/seed-superadmin.js
 
 # Expose the backend port
 EXPOSE 8080
