@@ -6,6 +6,7 @@ WORKDIR /app
 
 # Copy package files and install dependencies
 COPY package*.json ./
+RUN npm cache clean --force
 RUN npm install
 
 # Copy project files, including prisma folder
